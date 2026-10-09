@@ -72,7 +72,7 @@ import dtna_toc  # noqa: E402
 from build_model import encode_texture  # noqa: E402
 from dol import Dol  # noqa: E402
 from mss_model import Model  # noqa: E402
-from recolor_block import decode  # noqa: E402
+from recolor_block import ci8_palette, decode, encode_ci8, encode_ci8_palette  # noqa: E402
 from sluggers_data import CHAR_NAMES, char_id as _char_id  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -273,8 +273,19 @@ def recolor_block(block, rules, overrides=None):
             after = custom
         if np.array_equal(np.asarray(before), np.asarray(after)):
             continue
-        data = encode_texture(after, tex.format, tex.payload_size())
-        block[tex.image:tex.image + len(data)] = data
+        if tex.format == 9 and i in overrides:      # CI8 (DK's, Baby DK's fur): a whole new picture, its own palette
+            data, pal = encode_ci8(after)
+            block[tex.image:tex.image + len(data)] = data
+            block[tex.palette:tex.palette + len(pal)] = pal
+            after = decode(bytes(block), tex)
+        elif tex.format == 9:           # CI8, rules only: recolor the palette, the indices stay (exact; a region can't
+            pal = apply_rules(ci8_palette(bytes(block), tex), [{k: v for k, v in r.items() if k != "region"}
+                                                               for r in rules], texture=i)      # split a color)
+            block[tex.palette:tex.palette + 512] = encode_ci8_palette(pal)
+            after = decode(bytes(block), tex)
+        else:
+            data = encode_texture(after, tex.format, tex.payload_size())
+            block[tex.image:tex.image + len(data)] = data
         pairs.append((before, after))
     return bytes(block), pairs
 

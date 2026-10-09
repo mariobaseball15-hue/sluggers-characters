@@ -24,8 +24,59 @@ from mss_model import Model, read_block  # noqa: E402
 import subprocess  # noqa: E402
 
 
+def ci8_palette(block, tex):
+    """A CI8 texture's 256-color RGB5A3 palette -> RGBA image, 256 x 1 (Donkey Kong's and Baby DK's fur)."""
+    out = []
+    for i in range(256):
+        v = int.from_bytes(block[tex.palette + 2 * i:tex.palette + 2 * i + 2], "big")
+        if v & 0x8000:
+            out.append(((v >> 10 & 31) * 255 // 31, (v >> 5 & 31) * 255 // 31, (v & 31) * 255 // 31, 255))
+        else:
+            out.append(((v >> 8 & 15) * 17, (v >> 4 & 15) * 17, (v & 15) * 17, (v >> 12 & 7) * 255 // 7))
+    img = Image.new("RGBA", (256, 1))
+    img.putdata(out)
+    return img
+
+
+def encode_ci8_palette(img):
+    """256 x 1 RGBA palette -> RGB5A3 bytes (opaque colors 5:5:5, the rest 3:4:4:4)."""
+    out = bytearray()
+    for r, g, b, a in img.getdata():
+        v = 0x8000 | (r >> 3) << 10 | (g >> 3) << 5 | b >> 3 if a == 255 else             (a >> 5) << 12 | (r >> 4) << 8 | (g >> 4) << 4 | b >> 4
+        out += v.to_bytes(2, "big")
+    return bytes(out)
+
+
+def encode_ci8(img):
+    """A whole new picture as CI8 -> (indices in 8 x 4 tiles, RGB5A3 palette): 256 colors chosen for it."""
+    q = img.convert("RGBA").quantize(256, method=Image.Quantize.FASTOCTREE)
+    pal = q.getpalette("RGBA")[:256 * 4]
+    pal += [0] * (256 * 4 - len(pal))
+    pimg = Image.new("RGBA", (256, 1))
+    pimg.putdata([tuple(pal[i:i + 4]) for i in range(0, 1024, 4)])
+    px, out = q.load(), bytearray()
+    for ty in range(0, q.height, 4):
+        for tx in range(0, q.width, 8):
+            for y in range(4):
+                for x in range(8):
+                    out.append(px[tx + x, ty + y])
+    return bytes(out), encode_ci8_palette(pimg)
+
+
 def decode(block, tex):
-    """Texture -> RGBA image, via a TPL wrapper and wimgt."""
+    """Texture -> RGBA image, via a TPL wrapper and wimgt (CI8: its palette, here)."""
+    if tex.format == 9:                 # CI8, 8 x 4 tiles of palette indices
+        pal = list(ci8_palette(block, tex).getdata())
+        raw = block[tex.image:tex.image + tex.payload_size()]
+        img = Image.new("RGBA", (tex.width, tex.height))
+        px, k = img.load(), 0
+        for ty in range(0, tex.height, 4):
+            for tx in range(0, tex.width, 8):
+                for y in range(4):
+                    for x in range(8):
+                        px[tx + x, ty + y] = pal[raw[k]]
+                        k += 1
+        return img
     tmp = tempfile.mkdtemp()
     try:
         payload = block[tex.image:tex.image + tex.payload_size()]

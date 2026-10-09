@@ -708,7 +708,7 @@ class RecolorEditor(ttk.Frame):
             self.clusters = self.rc.base_colors(self.game, self.base_ref(), defs=self.defs)
         except AssertionError:          # a base that isn't here: no colours (validate says why)
             self.clusters = []
-        except Exception as e:          # textures the tool can't decode (Donkey Kong, Baby DK: wimgt refuses them)
+        except Exception as e:          # textures the tool can't decode
             self.clusters, self.unreadable = [], type(e).__name__
         finally:
             try:

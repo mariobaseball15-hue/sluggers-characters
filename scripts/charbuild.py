@@ -573,6 +573,24 @@ def model_files(c):
     return out
 
 
+def textures_only(block, template):
+    """True when a model block is its template's block with only texture pixels / palettes changed (a recolor,
+    a texture pack): same length, same bytes everywhere else."""
+    from mss_model import Model
+    if len(block) != len(template):
+        return False
+    try:
+        texs = Model(template).textures
+    except Exception:
+        return False
+    a, b = bytearray(block), bytearray(template)
+    for t in texs:
+        spans = [(t.image, t.payload_size())] + ([(t.palette, 512)] if t.format == 9 and t.palette else [])
+        for off, n in spans:
+            a[off:off + n] = b[off:off + n] = bytes(n)
+    return a == b
+
+
 def own_squares(chars, squares, layout, placed=()):
     """(squares, layout, log lines): each character with "own_square" (a .sluggie model or a New character, git-92:
     Nick found "Daisy custom is in daisy's color wheel") gets a new square of its own, at the end of the layout (as
@@ -2878,12 +2896,16 @@ def _build(chars, out, grid_square=False, poltergust=False, dino_plants=False, c
             # A new model on the template's low-detail block (file 1 left out: a .sluggie or texture pack of file 0,
             # Ice Bro; or kept stock by an import) draws the template wherever the game uses the far-away model:
             # fielders, TV cameras, a close play's cut (NSL's Characters Beta video). Its own detailed block stands
-            # in, as the Lumas and Extra Innings' Luma ship.
+            # in, as the Lumas and Extra Innings' Luma ship. Not for new textures on the template's model (a recolor,
+            # a texture pack): the template's low-detail block has no textures of its own (it draws with file 0's), and
+            # two copies of a big detailed block overflow the actor's 850 KB model heap (fielder-count.md; Peach, Daisy,
+            # Wario, the Kongs... crashed at load in 3.0).
             tmpl = []
             for off, length in dtna_toc.toc(dol)[tdir][:2]:
                 f.seek(off)
                 tmpl.append(f.read(length))
-            if 0 in files and files[0] != tmpl[0] and files.get(1) == tmpl[1]:
+            if 0 in files and files[0] != tmpl[0] and files.get(1) == tmpl[1] \
+                    and not textures_only(files[0], tmpl[0]):
                 files[1] = files[0]
                 log.append(f"{c['name']}: its far-away model (file 1) is its detailed one (the "
                            f"template's was left in)")
