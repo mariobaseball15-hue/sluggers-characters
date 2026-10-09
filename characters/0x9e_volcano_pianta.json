@@ -1,0 +1,21 @@
+{
+ "id": "0x9E",
+ "name": "Volcano Pianta",
+ "template": "Blue Pianta",
+ "color": "black",
+ "_why": "Recolor tool (python scripts/recolor.py recolors/volcano-pianta.json): Blue Pianta recolored; stats, chemistry, voice and animations are Blue Pianta's.",
+ "model_blocks": {
+  "0": "models/work/recolor/volcano-pianta/high.bin",
+  "1": "models/work/recolor/volcano-pianta/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/volcano-pianta_side.png",
+  "front": "models/work/icons/new/volcano-pianta_front.png"
+ },
+ "stats": {
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry_like": "Blue Pianta"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "0x6F",
+ "name": "Lubba",
+ "template": "Boo",
+ "scale": 1.37,
+ "_why_scale": "Size pass (Nick): 1.15x Mario's in-game height (model height x the Boo sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (0.84x).",
+ "batting_item": "starbits",
+ "item_ability": "Star Bit Storm",
+ "hitting_ability": "Star Get",
+ "_why_hitting_ability": "Nick: Star Get is a hitting ability (the batter star when they come up to bat, batter_star.py): the star swing row with the bat icon (star_move_labels.py). Their item row is Star Bit Storm.",
+ "color": "purple",
+ "voice": "lubba",
+ "model_overlay": "lubba-over-boo",
+ "model_blocks": {
+  "0": "models/work/lubba/pack/high.bin",
+  "1": "models/work/lubba/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/lubba_side.png",
+  "front": "models/work/icons/new/lubba_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/lubba.bin",
+  "_why": "Boo's bat tinted Lubba purple, grin blue: python scripts/make_bat.py models/work/bats/lubba.bin 32 --hue 0 280 40 --tint 0.72 0.48 0.95"
+ },
+ "stats": {
+  "character class": 0,
+  "weight": 2,
+  "fielding ability": 0,
+  "baserunning ability": 0,
+  "slap size": 72,
+  "charge size": 52,
+  "slap power": 24,
+  "charge power": 42,
+  "bunting": 42,
+  "speed": 44,
+  "outfield throwing": 40,
+  "fielding": 52,
+  "displayed pitching": 7,
+  "displayed batting": 4,
+  "displayed fielding": 5,
+  "dis speed": 4,
+  "curveball speed": 110,
+  "charge pitch speed": 126,
+  "curve": 72,
+  "curse ball": 32,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Mario": 2,
+  "Luigi": 2,
+  "Bowser": 0,
+  "Bowser Jr.": 0,
+  "Luma": 2,
+  "Blue Luma": 2,
+  "Green Luma": 2,
+  "Red Luma": 2,
+  "Gold Gearmo": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Galaxy 2 captain of Starship Mario with Mario; leads the Lumas.",
+ "table_stats": {
+  "strike zone height": 1.021
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Boo's zone sits 53% of the way up its body in the batting stance (0.950 on 0.33..1.51); this body is 0.16..1.79, so 1.021 (the template's 0.950 would sit at 48%). World height = this x sizescale x scale"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "0x82",
+ "name": "Orange Toad",
+ "template": "Red Toad",
+ "color": "orange",
+ "_why_new_id": "Was Extra Innings' stock-slot id 0x49 (ei_characters.py, STOCK_* in charbuild.py). Nick: on the clean base no stock-slot characters, every character the same way (docs/stock-slot-migration.md)",
+ "_why_voice": "No voice set of its own: Red Toad's (the template's) voices, as today",
+ "model_blocks": {
+  "0": "models/work/orange-toad/pack/high.bin",
+  "1": "models/work/orange-toad/pack/low.bin"
+ },
+ "_why_model": "The clean game's Red Toad with the cap recoloured: python scripts/orange_toad.py",
+ "icon": {
+  "side": "models/work/icons/new/orange-toad_side.png",
+  "front": "models/work/icons/new/orange-toad_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/orange-toad.bin",
+  "_why": "Red Toad's bat, red -> orange: python scripts/bat_recolors.py orange-toad"
+ },
+ "_why_stats": "No \"stats\": the template's row, i.e. Red Toad's stats after the stock edits, as STOCK_ROWS' \"like\": \"Red Toad\" gives him today (checked equal field by field)",
+ "chemistry": {
+  "Peach": 2,
+  "Bowser": 0,
+  "Toadette": 2,
+  "Blue Pianta": 2,
+  "Red Pianta": 2,
+  "Yellow Pianta": 2,
+  "Toadsworth": 2,
+  "Goomba": 0,
+  "Paragoomba": 0,
+  "Baby Peach": 2,
+  "Rosalina": 2,
+  "Luma": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick), STOCK_ROWS: the good / bad lists written today (neutral toward everyone else, the Toads included)",
+ "table_rows": {
+  "pitchwindup": "41a800004160000041100000",
+  "starpitch": "00",
+  "catchrange": "42f0000042a00000424800004339000042a0000043af0000430c000042c8000043af000043390000",
+  "icescale": "3f800000",
+  "perid2": "3c3c",
+  "perid4": "0d1e7805",
+  "throwfloats": "3f0000003f8000003f8ccccd",
+  "throwvariant": "091305120a"
+ },
+ "_why_table_rows": "Today's per-character rows (Extra Innings' data for stock slot 0x49) where they differ from Red Toad's: TABLES name -> whole row, hex. Inert until charbuild reads \"table_rows\" (docs/stock-slot-migration.md): applied after the template's row is copied, before table_stats"
+}

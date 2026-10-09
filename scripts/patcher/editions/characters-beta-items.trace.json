@@ -1,0 +1,67 @@
+{
+ "about": "Characters Beta items: for package.py --trace only (its item features' files and modules; not a player's profile)",
+ "features": [
+  "new-ids",
+  "recolor-tool",
+  "voices",
+  "level-5",
+  "cpu-perfect-batting",
+  "cpu-perfect-pitching",
+  "cpu-perfect-fielding",
+  "cpu-perfect-running",
+  "cpu-pitching",
+  "cpu-charge-timing",
+  "cpu-batter-track",
+  "cpu-no-bunts",
+  "cpu-cursed-ball",
+  "cpu-star-swings",
+  "cpu-no-star-pitches",
+  "cpu-rundown",
+  "cpu-items",
+  "cpu-item-defense",
+  "cpu-subs",
+  "captain-faceoff",
+  "bench",
+  "fielder-spots",
+  "item-odds",
+  "new-roulette-item",
+  "item-variants",
+  "item-engine",
+  "koopaling-items",
+  "fixed-items",
+  "item-ability"
+ ],
+ "options": {
+  "item-odds": {
+   "shell": 25,
+   "ice": 15,
+   "lemmy": 5,
+   "bill": 5,
+   "iggy": 5,
+   "larry": 5,
+   "wendy": 5,
+   "ludwig": 5
+  }
+ },
+ "characters": {
+  "Mario": {
+   "batting_item": "ice",
+   "item_ability": "Frost Flurry"
+  },
+  "Luigi": {
+   "batting_item": "bill"
+  }
+ },
+ "new_characters": [
+  "characters/0x81_rosalina.json"
+ ],
+ "recolors": [
+  "recolors/volcano-pianta.json"
+ ],
+ "creations": [
+  "scripts/creators/presets/ice.slgitem",
+  "scripts/creators/presets/lemmy.slgitem",
+  "scripts/creators/presets/bullet-bill.slgitem",
+  "scripts/creators/presets/wendy.slgitem"
+ ]
+}

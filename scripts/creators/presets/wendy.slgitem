@@ -1,0 +1,80 @@
+{
+ "kind": "item",
+ "format": 1,
+ "name": "Wendy's Rings",
+ "from": null,
+ "files": [],
+ "blocks": {
+  "item": {
+   "type": "item",
+   "chassis": "lob-hazards"
+  },
+  "given": {
+   "type": "given",
+   "roulette": [
+    0,
+    0,
+    0
+   ],
+   "characters": [],
+   "always": false
+  },
+  "spawn": {
+   "type": "spawn",
+   "on": "landing",
+   "what": "rings",
+   "count": 6,
+   "lifetime": 0,
+   "move": {
+    "type": "move",
+    "path": "ground",
+    "hop": {
+     "height": 0.7,
+     "frames": 32.0
+    },
+    "wander": {
+     "speed": 0.09,
+     "range": 9.0,
+     "twist": 35.0
+    }
+   },
+   "hit": {
+    "type": "hit",
+    "targets": [
+     "fielder"
+    ],
+    "radius": 0.55
+   },
+   "effect": {
+    "type": "effect",
+    "kind": "slip"
+   },
+   "look": {
+    "type": "look",
+    "model": "ring",
+    "height": 0.56,
+    "colors": [
+     [
+      255,
+      105,
+      180,
+      255
+     ],
+     [
+      255,
+      205,
+      60,
+      255
+     ]
+    ]
+   }
+  },
+  "look": {
+   "type": "look",
+   "model": "ring",
+   "icon": {
+    "draw": "ring"
+   }
+  }
+ }
+}

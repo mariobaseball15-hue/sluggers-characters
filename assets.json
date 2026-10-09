@@ -1,0 +1,1617 @@
+{
+ "CREDITS.md": {
+  "sha1": "e09ee74d5413404bdf0069810b98e1254149f744",
+  "size": 12322,
+  "delta": false
+ },
+ "captains/item_ability_icon.png": {
+  "sha1": "6532c26073e117f7e9f6ebaab42c772745e29d8b",
+  "size": 883,
+  "delta": false
+ },
+ "captains/starbits_icon.png": {
+  "sha1": "05034a1c12ce76692500ee0bb9a2827f8d9d4070",
+  "size": 2175,
+  "delta": false
+ },
+ "characters/0x66_pauline.json": {
+  "sha1": "58074a92af34b6d8826fe2bb05bae043cace8d88",
+  "size": 1782,
+  "delta": false
+ },
+ "characters/0x67_boom_boom.json": {
+  "sha1": "34023e5d655f9c67b9d95bb5d56acfd6357e6b3f",
+  "size": 1937,
+  "delta": false
+ },
+ "characters/0x68_dino_piranha.json": {
+  "sha1": "e9d444763d838624eef6bb97e0881eb266e9f7a8",
+  "size": 2331,
+  "delta": false
+ },
+ "characters/0x69_dry_bowser.json": {
+  "sha1": "e3b720af35a758d956fcc5b226c881e96d437e76",
+  "size": 1787,
+  "delta": false
+ },
+ "characters/0x6a_bouldergeist.json": {
+  "sha1": "22c1a1d77cfe21118b18f331d1ff16fccbda9038",
+  "size": 2562,
+  "delta": false
+ },
+ "characters/0x6b_chimp.json": {
+  "sha1": "3ce736394af800cd69c5b0e01b2e9c54f18e4b57",
+  "size": 1949,
+  "delta": false
+ },
+ "characters/0x6c_gearmo.json": {
+  "sha1": "71bd66ae2097126e27709baf15e919745eef8372",
+  "size": 2113,
+  "delta": false
+ },
+ "characters/0x6d_honey_queen.json": {
+  "sha1": "a7bfbfda653bbd6cbaaaf83608ff69875e41e028",
+  "size": 1981,
+  "delta": false
+ },
+ "characters/0x6e_ice_bro.json": {
+  "sha1": "d062705a96df7b5cf29bc1d7bb319347183502ec",
+  "size": 1565,
+  "delta": false
+ },
+ "characters/0x6f_lubba.json": {
+  "sha1": "b70ec1762e389ff6d4e0802844ec2e3e9c81f836",
+  "size": 2278,
+  "delta": false
+ },
+ "characters/0x70_penguru.json": {
+  "sha1": "361f895c503d847d32c551b328bbd28a437dd083",
+  "size": 2163,
+  "delta": false
+ },
+ "characters/0x71_blue_luma.json": {
+  "sha1": "22e5851ae96185cc1d78132af07bb7fcea56ca2b",
+  "size": 4656,
+  "delta": false
+ },
+ "characters/0x72_green_luma.json": {
+  "sha1": "d6448be4ebdd1520e8c1e45b8ffdc6b8eb7c1c4c",
+  "size": 4673,
+  "delta": false
+ },
+ "characters/0x73_red_luma.json": {
+  "sha1": "0802d854c5752cd60e52c7891241c96e1f667a49",
+  "size": 4659,
+  "delta": false
+ },
+ "characters/0x74_pom_pom.json": {
+  "sha1": "786e40091712a4cdc69976893cbb8597f59ba56a",
+  "size": 2258,
+  "delta": false
+ },
+ "characters/0x75_iggy.json": {
+  "sha1": "639eef9edd32a0fe40841239ffa30cedbce9c31d",
+  "size": 1759,
+  "delta": false
+ },
+ "characters/0x76_lemmy.json": {
+  "sha1": "f8cabbe0562efbfa47faca7fc701f5564f38fcc1",
+  "size": 2775,
+  "delta": false
+ },
+ "characters/0x77_ludwig.json": {
+  "sha1": "7be7d4b9100e5634959ca15a3aaacd3df58536d7",
+  "size": 1770,
+  "delta": false
+ },
+ "characters/0x78_king_bobomb.json": {
+  "sha1": "c890b145dafbde055086bc7c434d005b06e720d0",
+  "size": 2564,
+  "delta": false
+ },
+ "characters/0x79_morton.json": {
+  "sha1": "65a152d1b0ad79dd4ace6c4cfb710ea41785e647",
+  "size": 1594,
+  "delta": false
+ },
+ "characters/0x7a_roy.json": {
+  "sha1": "6a537e672247028aef2d81f155c45a1c3e9af437",
+  "size": 1861,
+  "delta": false
+ },
+ "characters/0x7b_wendy.json": {
+  "sha1": "e344eaf5d67d53a5f170d0ba3b987f45d8e90cf1",
+  "size": 1901,
+  "delta": false
+ },
+ "characters/0x7c_gold_gearmo.json": {
+  "sha1": "40e86b9aac16a8f394058650699cf4606364dfab",
+  "size": 2069,
+  "delta": false
+ },
+ "characters/0x81_rosalina.json": {
+  "sha1": "42edd9807a7a7f3291805a66ae03ed82cccbac7a",
+  "size": 4162,
+  "delta": false
+ },
+ "characters/0x82_orange_toad.json": {
+  "sha1": "c719709ac5b9ef4bc99803874c69b966ec0fedf2",
+  "size": 2112,
+  "delta": false
+ },
+ "characters/0x83_larry.json": {
+  "sha1": "83891259254812a2339bc4c88afed28957cdbccb",
+  "size": 3471,
+  "delta": false
+ },
+ "characters/0x84_luma.json": {
+  "sha1": "e29fa2f285e66da2c35ff2c0b8f150e7ceb6b19f",
+  "size": 5478,
+  "delta": false
+ },
+ "characters/0x9e_volcano_pianta.json": {
+  "sha1": "1508005612762598834da875a78d0f160ebe6b90",
+  "size": 643,
+  "delta": false
+ },
+ "models/work/bats/iggy.bin": {
+  "sha1": "7af71e79a3f998e59358768a9aff7b744482d91f",
+  "size": 15040,
+  "delta": true
+ },
+ "models/work/bats/iggy.png": {
+  "sha1": "59513601c29909b1db95e56a5441d8fa0d6fadcf",
+  "size": 2699,
+  "delta": false
+ },
+ "models/work/bats/larry.bin": {
+  "sha1": "6d12fad39401bcc4dbb4992f01d576dc6cad7ef1",
+  "size": 39712,
+  "delta": true
+ },
+ "models/work/bats/larry.png": {
+  "sha1": "2c4a8548d6c535011cdd2257cf5747a67340868b",
+  "size": 29747,
+  "delta": false
+ },
+ "models/work/bats/lemmy.bin": {
+  "sha1": "ab28778b5dbca12f04ffa7cea5ab299bca374c7d",
+  "size": 15040,
+  "delta": true
+ },
+ "models/work/bats/lemmy.png": {
+  "sha1": "e99140a2accb58e1454b6d06112d9ee2e1faedde",
+  "size": 2823,
+  "delta": false
+ },
+ "models/work/bats/ludwig.bin": {
+  "sha1": "da1905c0ae72e85c3ce4607a5c40f53e61bc7104",
+  "size": 15040,
+  "delta": true
+ },
+ "models/work/bats/ludwig.png": {
+  "sha1": "a357b0d844288fbe018abcf0a4af81a4adf1e26d",
+  "size": 2630,
+  "delta": false
+ },
+ "models/work/bats/morton.bin": {
+  "sha1": "45cdb57175b8a4f806770c2155044d7f1436f41d",
+  "size": 15040,
+  "delta": true
+ },
+ "models/work/bats/morton.png": {
+  "sha1": "8fad8a5782eb78a55e181345169a058dd4d4754b",
+  "size": 2889,
+  "delta": false
+ },
+ "models/work/bats/preview/props_front.png": {
+  "sha1": "39a4ce0aaf0dc2087d91698bc79ef736c970197e",
+  "size": 498084,
+  "delta": false
+ },
+ "models/work/bats/preview/props_persp.png": {
+  "sha1": "d177927ee04cd4b3ad00c5fe0ecebda1e79aec9b",
+  "size": 538917,
+  "delta": false
+ },
+ "models/work/bats/preview/props_side.png": {
+  "sha1": "79b0479f6bbbd294e34a19e6d57939a7669cfa5f",
+  "size": 543829,
+  "delta": false
+ },
+ "models/work/bats/preview/props_top.png": {
+  "sha1": "7c9d5adea4555afb2a99da46aa8da7a157289998",
+  "size": 544397,
+  "delta": false
+ },
+ "models/work/bats/recolor_textures.png": {
+  "sha1": "734d8cae9d5f590875c7d87d0265cbf1b755dfe3",
+  "size": 67552,
+  "delta": false
+ },
+ "models/work/bats/recolor_textures2.png": {
+  "sha1": "3269cfff50b5962a305bb1507451e9911540bc2d",
+  "size": 5543,
+  "delta": false
+ },
+ "models/work/bats/rosalina.bin": {
+  "sha1": "6e00ccfe75bfe39e5916361a56d8fb90ac4d7e63",
+  "size": 8800,
+  "delta": true
+ },
+ "models/work/bats/rosalina.png": {
+  "sha1": "fba738e0e25b27e48ddacf0045b2a91dd5f54cb8",
+  "size": 4636,
+  "delta": false
+ },
+ "models/work/bats/rosalina_tex1.png": {
+  "sha1": "7715ece07fa34308f8bd065420bca015fea3e492",
+  "size": 95,
+  "delta": false
+ },
+ "models/work/bats/roy.bin": {
+  "sha1": "8d94ffdffdd8d84eb9cb5806dcee42078343fb93",
+  "size": 15040,
+  "delta": true
+ },
+ "models/work/bats/roy.png": {
+  "sha1": "3c26de3605d1742f9421686ead530690041d4c74",
+  "size": 2661,
+  "delta": false
+ },
+ "models/work/bats/sources.png": {
+  "sha1": "3db03ae159b35cc9624d1c9ed4631ab96a4ed2b8",
+  "size": 127794,
+  "delta": false
+ },
+ "models/work/bats/wendy.bin": {
+  "sha1": "6057f7c440d4615cf812a9a8d726cf10d3511229",
+  "size": 15040,
+  "delta": true
+ },
+ "models/work/bats/wendy.png": {
+  "sha1": "ef9e2aed9a5994405431cfe191ae7e16a03f8cc4",
+  "size": 2637,
+  "delta": false
+ },
+ "models/work/icons/new/fire-mario_front.png": {
+  "sha1": "82ee3d1dab3e6d38a5c30fd1d9da3687191cfcb1",
+  "size": 5915,
+  "delta": false
+ },
+ "models/work/icons/new/fire-mario_side.png": {
+  "sha1": "c08484885ee712b1a15de7303a281e46b7e2d744",
+  "size": 5156,
+  "delta": false
+ },
+ "models/work/icons/new/iggy_front.png": {
+  "sha1": "0e26db0bc6d211dca456fd8a95f8f34619f3a619",
+  "size": 4107,
+  "delta": false
+ },
+ "models/work/icons/new/iggy_side.png": {
+  "sha1": "0b5fa78e6790de72c0756b35cf66d1833f9f8c03",
+  "size": 3915,
+  "delta": false
+ },
+ "models/work/icons/new/larry_front.png": {
+  "sha1": "03c930fb7d9347fd131ec5dc1549fac64450932b",
+  "size": 4090,
+  "delta": false
+ },
+ "models/work/icons/new/larry_side.png": {
+  "sha1": "44fb29dffb2d91142d68faa9c8b0fc812be66da4",
+  "size": 4352,
+  "delta": false
+ },
+ "models/work/icons/new/lemmy_front.png": {
+  "sha1": "3b354458667eb07a43bbb5d87bd31325bcccfad0",
+  "size": 4274,
+  "delta": false
+ },
+ "models/work/icons/new/lemmy_side.png": {
+  "sha1": "908adb082f697f10f8dc38ce73e9f5d226a807e5",
+  "size": 4252,
+  "delta": false
+ },
+ "models/work/icons/new/ludwig_front.png": {
+  "sha1": "d2cfa81dddcc9e6f3cd7b87f3f34e137ce992b11",
+  "size": 4495,
+  "delta": false
+ },
+ "models/work/icons/new/ludwig_side.png": {
+  "sha1": "fdc590e561b67dbd1997980ad5256c3eb6f33691",
+  "size": 5607,
+  "delta": false
+ },
+ "models/work/icons/new/mario_front.png": {
+  "sha1": "36f33cb93c73c3e5202bef63e3d7df86dc7a59f8",
+  "size": 5768,
+  "delta": false
+ },
+ "models/work/icons/new/mario_side.png": {
+  "sha1": "4063c6d041a7fe71394995a56bd328c7682bd4f0",
+  "size": 5002,
+  "delta": false
+ },
+ "models/work/icons/new/morton_front.png": {
+  "sha1": "d8a2d655b8cbbdf216e82bfec3ab09ae814cf36f",
+  "size": 4016,
+  "delta": false
+ },
+ "models/work/icons/new/morton_side.png": {
+  "sha1": "1cbeb1ab77bfbc1d3f0011b20e78d6ea06679369",
+  "size": 4481,
+  "delta": false
+ },
+ "models/work/icons/new/rosalina_front.png": {
+  "sha1": "3a4954fe886967bc5069ce6a52f8aeb7f679a07c",
+  "size": 5386,
+  "delta": false
+ },
+ "models/work/icons/new/rosalina_side.png": {
+  "sha1": "911edd2ac894e62be0dfb55bea73eaa2c0c16538",
+  "size": 5609,
+  "delta": false
+ },
+ "models/work/icons/new/roy_front.png": {
+  "sha1": "48bd79f98bc48ad0d0ece74afe4e0b23850a20f5",
+  "size": 5002,
+  "delta": false
+ },
+ "models/work/icons/new/roy_side.png": {
+  "sha1": "d81015cc87b1dbbfcccf055642353d901c881296",
+  "size": 5295,
+  "delta": false
+ },
+ "models/work/icons/new/wendy_front.png": {
+  "sha1": "86e4538c7fdcdb87052c5d53348a6cddf0967fd0",
+  "size": 5584,
+  "delta": false
+ },
+ "models/work/icons/new/wendy_side.png": {
+  "sha1": "48b7047d799d9e446f1e07f4b50dc73da927cab8",
+  "size": 4919,
+  "delta": false
+ },
+ "models/work/iggy/pack/high.bin": {
+  "sha1": "104d27be05b923fb991cd37c46931eb3f09babca",
+  "size": 431680,
+  "delta": true
+ },
+ "models/work/iggy/pack/low.bin": {
+  "sha1": "06f7f06faa5ee36fc38e3aef2fb4a5064e69c0d5",
+  "size": 73280,
+  "delta": true
+ },
+ "models/work/larry/pack/high.bin": {
+  "sha1": "edcca5ef8d4577ebd2068f43d468ef46ab9b2ed7",
+  "size": 431680,
+  "delta": true
+ },
+ "models/work/larry/pack/low.bin": {
+  "sha1": "3f1d480e2e44dde27462d94a2adc2a047f007d5e",
+  "size": 73280,
+  "delta": true
+ },
+ "models/work/lemmy/pack_ride/high.bin": {
+  "sha1": "cd7aebd70a730be6a8f923b0c0d71aed3e53874a",
+  "size": 431680,
+  "delta": true
+ },
+ "models/work/lemmy/pack_ride/low.bin": {
+  "sha1": "757877a456884026b876931d69ba92fbe5fabfb0",
+  "size": 73280,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file10.bin": {
+  "sha1": "d78398faa4e806cfba034f6a248072c77842885e",
+  "size": 51392,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file11.bin": {
+  "sha1": "de892480975d2f2a5bd74316bf2e686d62f7778f",
+  "size": 212000,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file12.bin": {
+  "sha1": "0c4a55dd444d3c53ab27b4b2dfd9bba294f68926",
+  "size": 601280,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file13.bin": {
+  "sha1": "2e22d6a59f3af6076921756e440d8cb68b1ad0e0",
+  "size": 23936,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file14.bin": {
+  "sha1": "3385939f31024929250e76a03d4c0d8819a864f0",
+  "size": 191968,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file6.bin": {
+  "sha1": "c6dcbf9f97ef071cf5d4fa46658c9f71c7176bd8",
+  "size": 628320,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file7.bin": {
+  "sha1": "d3f91b826be5a728f8370ccce59bc918def58afd",
+  "size": 1050880,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file8.bin": {
+  "sha1": "1b396ba5f1c680a1eee2bb4269fe039f44ae0425",
+  "size": 444480,
+  "delta": true
+ },
+ "models/work/lemmy/ride/anim/file9.bin": {
+  "sha1": "375771b02b5516a0f7ce42ad0d4bd85191f4c0b1",
+  "size": 521920,
+  "delta": true
+ },
+ "models/work/lemmy_ball/prop.bin": {
+  "sha1": "0567bb818172eed0a9af543b467c4d4ddb2eee90",
+  "size": 26816,
+  "delta": true
+ },
+ "models/work/ludwig/pack/high.bin": {
+  "sha1": "4e9c50862cf007a2e0ffb2962537c57024cd9f4c",
+  "size": 431680,
+  "delta": true
+ },
+ "models/work/ludwig/pack/low.bin": {
+  "sha1": "fca25330cf0358d8258104f61a90adcdb6046548",
+  "size": 73280,
+  "delta": true
+ },
+ "models/work/morton/pack/high.bin": {
+  "sha1": "5ae78c249c1acdb2631019cd46232acbc703b8d4",
+  "size": 431680,
+  "delta": true
+ },
+ "models/work/morton/pack/low.bin": {
+  "sha1": "8c8e65b5e84f2e124af53fba99e1e83844cef8e5",
+  "size": 73280,
+  "delta": true
+ },
+ "models/work/pauline_chance/preview_in_game_palette.png": {
+  "sha1": "2632c8ed04728da2d7c7140835010798c768b9f6",
+  "size": 46450,
+  "delta": false
+ },
+ "models/work/pauline_chance/rbi_chance_stock.png": {
+  "sha1": "75aecd94814a2597748f4ad3d3fe0d83268c92c1",
+  "size": 21435,
+  "delta": false
+ },
+ "models/work/pauline_chance/star_chance.png": {
+  "sha1": "ffb3f1eca9faa5a949ef4aa0319e5f3da610f112",
+  "size": 49580,
+  "delta": false
+ },
+ "models/work/pauline_chance/stock_banners_en_es_fr.png": {
+  "sha1": "ec6618a9f06e88f63a8bc06153766aa7bab42fa7",
+  "size": 67448,
+  "delta": false
+ },
+ "models/work/ring/prop.bin": {
+  "sha1": "48cd13fa867cacfcee7e5034b47c752db90ad468",
+  "size": 21728,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file10.bin": {
+  "sha1": "1e52a75e5ef46949db16df0b607e7c963e235ae6",
+  "size": 112314,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file11.bin": {
+  "sha1": "061fb124896c0b8afbe83c60a63be7e00d4cb16d",
+  "size": 375164,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file12.bin": {
+  "sha1": "c3b6c62935a915ed9824a9eec1c400c0cc41fa9b",
+  "size": 401810,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file13.bin": {
+  "sha1": "5a6363662e7b725e5cd2cfd93f808f80ebd3c022",
+  "size": 50124,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file14.bin": {
+  "sha1": "e7cbdd8a3fc4e970780eac3353d899300b519c15",
+  "size": 172946,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file6.bin": {
+  "sha1": "f4e2e3f3e5af9c840928410771482e4f1ea8303c",
+  "size": 729410,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file7.bin": {
+  "sha1": "f05f5b62144b368feb766127c9916569ca0ef78a",
+  "size": 1144348,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file8.bin": {
+  "sha1": "193adaa589ff62f6fa1f95e52983855916c9462b",
+  "size": 598712,
+  "delta": true
+ },
+ "models/work/rosalina/anim/file9.bin": {
+  "sha1": "53fc64b00a9993836a2f1e9751638e372a3e90e0",
+  "size": 512904,
+  "delta": true
+ },
+ "models/work/rosalina/pack/high.bin": {
+  "sha1": "57724baae8f009c457a32d34685db2a4a29bbfe8",
+  "size": 461920,
+  "delta": true
+ },
+ "models/work/rosalina/pack/low.bin": {
+  "sha1": "901d611261f5a31098547a9ce3decf9faf660ab7",
+  "size": 80992,
+  "delta": true
+ },
+ "models/work/roy/pack/high.bin": {
+  "sha1": "dbe47886c78b6f2241e86626666d7756895085cb",
+  "size": 431680,
+  "delta": true
+ },
+ "models/work/roy/pack/low.bin": {
+  "sha1": "b1f7cbdb70c1ca1dc32754e080d5c6c271ec4832",
+  "size": 73280,
+  "delta": true
+ },
+ "models/work/sounds/encoded/02a710b5e509aa0335c10bd44b2ac3f75e0581ade0fea3f97f2b7a43c4dfa6ee.dsp": {
+  "sha1": "a0b0b75d1cc8a92f423771679e3a12b3b0ad33de",
+  "size": 6097,
+  "delta": false
+ },
+ "models/work/sounds/encoded/07edc861c7460e34ebd66acb4169cf6f468e5bfa2c913a9c044e627179623390.dsp": {
+  "sha1": "443c6072a82fdf2257a93ed5ac99072f6284a445",
+  "size": 6377,
+  "delta": false
+ },
+ "models/work/sounds/encoded/093dacf1e980d274d6dd41a0f252b918ebc3bcd067647373360b6759ac355ab4.dsp": {
+  "sha1": "795316cfe8228737dad9213f4d0c5e0601e42e42",
+  "size": 9585,
+  "delta": false
+ },
+ "models/work/sounds/encoded/0c5f2fc52b0d1aafc7e8264a73e7e9775c3886b02aeecd1100297a3fce74e22f.dsp": {
+  "sha1": "793463efc55b5174f2a4b6a083d832144f8b13b8",
+  "size": 10321,
+  "delta": false
+ },
+ "models/work/sounds/encoded/17fdb236415e5f22a7dec57a5398ab7421c14884384929cae36394906bf94b9f.dsp": {
+  "sha1": "a48d25aec047aa5b1df9efdacc338b6049889272",
+  "size": 9257,
+  "delta": false
+ },
+ "models/work/sounds/encoded/19e33c7b6f7204a10832b2a14a5dab689c1e2b0a2f8e4ea81440640ddc3b7882.dsp": {
+  "sha1": "79f8d10f0f277b6ceecf8a37b5f52e06dfa3d2c8",
+  "size": 7385,
+  "delta": false
+ },
+ "models/work/sounds/encoded/204e30b6215726d2e8db8ae159792ac52b1a042a1b78bced50dccf246196b669.dsp": {
+  "sha1": "022a2334478698cd84c58c57c64628253200ab8e",
+  "size": 12921,
+  "delta": true
+ },
+ "models/work/sounds/encoded/21e6687a44c92ebfb75efa57c7bfd9037ea181c35f49cd15b72f603d9ff7f02c.dsp": {
+  "sha1": "6ccb537b12e2de12161934e8c3241f00b8401766",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/22e4b10888672d6a3aa7a60188240a40dc2ae4515061b5b8c837df592ce8e1f0.dsp": {
+  "sha1": "51b4cf6478610b40f8cff5735d6b639f1eac9bdd",
+  "size": 17185,
+  "delta": false
+ },
+ "models/work/sounds/encoded/246a000455fb56a29c240c4892acf2728abc3e9264ebe7984cf06d27c54d1ec8.dsp": {
+  "sha1": "9192f3508d1fb4720e35f20bd7a5d24d106512b4",
+  "size": 15289,
+  "delta": false
+ },
+ "models/work/sounds/encoded/25a0227741711a205251f11ae36ccf9dc5c867a502aa0a34bd37f53f3723107b.dsp": {
+  "sha1": "4b581a55c19d88e0350eb17ecd94f341a958eb84",
+  "size": 8449,
+  "delta": false
+ },
+ "models/work/sounds/encoded/261f4d587eec7b0a868223efafb676be4e4d80040dac115f203cf5f1a94f5159.dsp": {
+  "sha1": "68b702cedbf0f51a34bc240e49b46cdf88a6ee4f",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/295b2fac97f1bbfa41aba6594c2c20cc7b2d805447400bf60206375984657ce7.dsp": {
+  "sha1": "7bc535771d74a076e12f7e7abe61c0bfa9bb87d0",
+  "size": 10249,
+  "delta": false
+ },
+ "models/work/sounds/encoded/3281b69baacc95b86130cf97019534c021fec815060a0aff87a6d02ecf33e38f.dsp": {
+  "sha1": "3008f64b2ba43337e059a8e7c56935f549c1230e",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/3559d6c49e72c2c554a3104f0a5533c4478f1e0a348df169078b75bc3c699a7d.dsp": {
+  "sha1": "aa70e3a3dc471c53bcc296fb619a8b3a9f7e02c8",
+  "size": 16553,
+  "delta": false
+ },
+ "models/work/sounds/encoded/393ea41af545659fba13c54b0efffa649f72f1bfa805d49260de4f0f96c5b363.dsp": {
+  "sha1": "4655fc69d581a547358a8a21a63a02cbd5a72f06",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/3d646f1c14875671163c9810ec1fa95442f274c1721f5d2b9e2e883a613bac99.dsp": {
+  "sha1": "8d9f0fb84bbb0b0b6840eadbc5dee1caa0a70c9e",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/45c311a770058908986a083b5eb2bd7873d5667096d6b967759e136cbcc7f3bd.dsp": {
+  "sha1": "644058b94ced4c70d15da8c668033cbca7da2b34",
+  "size": 17537,
+  "delta": false
+ },
+ "models/work/sounds/encoded/4733b3b0109e0389ab826ad99ffac431817f0691159accd3cf113e6ed0285642.dsp": {
+  "sha1": "b1e37136138b941ad9d7226552c57674085a943b",
+  "size": 4169,
+  "delta": false
+ },
+ "models/work/sounds/encoded/482e172c39d73077a821579c16a9e8f1a96a63935f46ccb0bc467bb2d0fd3d2e.dsp": {
+  "sha1": "eb5f9051b4c8999f447305d47cd77d78eb5c4ae8",
+  "size": 6889,
+  "delta": false
+ },
+ "models/work/sounds/encoded/4d49fba4facef17fcefc0f24c9c4595273fb72d17dde80ff41010d749a9f2c44.dsp": {
+  "sha1": "123c45a51332f5254bac22c90346099013519741",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/4e95b9f3cb0e61d410ea9b9aaa04acc37582a53161ae9320b8e30b5997b52a3f.dsp": {
+  "sha1": "84b79903cf19abd1d282f7a9930f6c475919a76a",
+  "size": 13769,
+  "delta": false
+ },
+ "models/work/sounds/encoded/4ec6ecd26fff26c6e59275c534184256a801e3a2536b257ca88e81afe8852fe1.dsp": {
+  "sha1": "c1b9f29bef414d396a0e0b4085e8f301394db0d0",
+  "size": 7529,
+  "delta": false
+ },
+ "models/work/sounds/encoded/500080044f2cd6b7c1e437cc9e624956e908087922613d243ca02951584528f3.dsp": {
+  "sha1": "44abec1f34c3d835671683aa7469d09310c38718",
+  "size": 15249,
+  "delta": false
+ },
+ "models/work/sounds/encoded/545f0328532afbe799c958a212001efa0fa22fcc208902c3b4811d5f48055e20.dsp": {
+  "sha1": "f9906532be2cddcb1bb9d3797ccf597f024c61b7",
+  "size": 14689,
+  "delta": false
+ },
+ "models/work/sounds/encoded/57600786c15864416b952985cb3207646ca5ecf212e324114423fdb765592965.dsp": {
+  "sha1": "c7250f05febe9b4a9a300a3a97de8388f045f7db",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/58f04f74676d18014831619b8b3a99089f9fa74f0e42951e61c34e37b4dc8eaf.dsp": {
+  "sha1": "2d70cc4645730b03a306a599a7f29e17b26bb6f1",
+  "size": 3857,
+  "delta": false
+ },
+ "models/work/sounds/encoded/60de1247d77045555db3a283a8ad5afb0356e6b879a17dc402999252861c2f4b.dsp": {
+  "sha1": "2b7c020f02d9329e47e0d27431c931f53bd99119",
+  "size": 14953,
+  "delta": false
+ },
+ "models/work/sounds/encoded/6168ae256394776ede813aeb977bd0b82b3563fefe5fc68c39444a2a67a140c2.dsp": {
+  "sha1": "35f45afd036c7ccadb3f4cc849fa35eee5487d23",
+  "size": 14593,
+  "delta": false
+ },
+ "models/work/sounds/encoded/663e9aa302c89c45b1e712967d2d667cfa8548e0d6742b8edb45a793ca0b7de8.dsp": {
+  "sha1": "077168e9b81d9a55d1ffef0f442e3b1b0fc3b21a",
+  "size": 11817,
+  "delta": false
+ },
+ "models/work/sounds/encoded/6a6d4dd09e9cdc30795b078d188c47f0e9893cc2c9197bcdbd4dc0c6956f9bcf.dsp": {
+  "sha1": "60692277f6fad824117d115e60295914440062db",
+  "size": 15881,
+  "delta": false
+ },
+ "models/work/sounds/encoded/6bd4d8787531ba9fbb1e1c945d28606c96040a62c6c1c5a26d8f36dea58a52a6.dsp": {
+  "sha1": "646a63c6c791a54102148134f7a9f8be8050713f",
+  "size": 9801,
+  "delta": false
+ },
+ "models/work/sounds/encoded/6c641896f9d29d614e0e775c67b251f8b6866ebeee1d6cb5ba475edca95ff1b5.dsp": {
+  "sha1": "29cb0790f91f2ea0bd8beec193887530dcb94e3f",
+  "size": 3777,
+  "delta": false
+ },
+ "models/work/sounds/encoded/6c7dd1babfe58f0427d17d59f21d0ad2001ad0be5dca42316144d32781402a19.dsp": {
+  "sha1": "dbb84c50608b193b13884b0af7393ebf0c1b7b0a",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/6d4f03274a2269304b04be97dadec362f2180a8bf9f91d4604d5529990499aa4.dsp": {
+  "sha1": "6e0e2683d41cf81f62c56f2ec82497a1d75cc6f4",
+  "size": 16553,
+  "delta": false
+ },
+ "models/work/sounds/encoded/6f783782d51565b7d6c2076464cf8fd640ae4b310630e626b79716a27e2ae13f.dsp": {
+  "sha1": "f65a234dbcb9eaf26c0247eb3241385d30e44193",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/71c4517af1999faf087ac5d66807c69f0929daec539973246fb1f94094e9e050.dsp": {
+  "sha1": "0edee3a0e88d5a55f13c35d01688bbe8d1976c75",
+  "size": 8945,
+  "delta": false
+ },
+ "models/work/sounds/encoded/736f610d720b9248aeeae943927aef5511519f64712052a71667309498d9d72c.dsp": {
+  "sha1": "88ac14e9c442c5afb17791f21b9875e92bf7ff10",
+  "size": 4169,
+  "delta": false
+ },
+ "models/work/sounds/encoded/7d45e0d77bb3cb742a53b6f812fb9b877db8e9bb27c234d8ea9ededb69b93acf.dsp": {
+  "sha1": "cf353c709f867010d39b919ad530f2eb1d81a7c8",
+  "size": 11665,
+  "delta": false
+ },
+ "models/work/sounds/encoded/7f93f19ff492b4f43947faaa9c8e7c5525f954422f48d41a5dbff5d94cdd1dee.dsp": {
+  "sha1": "783ac8bfdfe739c6c0da976ea13c62f721a89582",
+  "size": 12249,
+  "delta": false
+ },
+ "models/work/sounds/encoded/839977f7c5df3bb7d4b248f7f49d3a3ec9317dad864952b8c59f2c5aa490dd3a.dsp": {
+  "sha1": "21cfca4dd3998872829ccabfef47a4344a5366bd",
+  "size": 13793,
+  "delta": false
+ },
+ "models/work/sounds/encoded/87cd61b1e64917c9dcf11bf52033c33b0584f56469f1a54bfecdc49f4d8a6e43.dsp": {
+  "sha1": "555a3406c04ce4a257e502d8e67a5f14d09834d8",
+  "size": 16297,
+  "delta": false
+ },
+ "models/work/sounds/encoded/8bdff7ee62b18411f2d9ce7de187f55c8a55b5213688fbc65840f1e8640d079e.dsp": {
+  "sha1": "caf0abd6b2ecb270198f01de757e54a5c1aa480c",
+  "size": 13897,
+  "delta": false
+ },
+ "models/work/sounds/encoded/8bfc5fe45812c88dbedc5459bfaaa601b5e7c8e18a64f6b444ca484f520d4967.dsp": {
+  "sha1": "2289689e72d025a659731aca0b4d6c6ef1b48b8e",
+  "size": 17281,
+  "delta": false
+ },
+ "models/work/sounds/encoded/8c6fb01305c8c9b904e783099a409cc6ea3f0e5d4ef1db9edf95812f94342dbb.dsp": {
+  "sha1": "43384b208c2681f195754f125921cb1e1b1e82d5",
+  "size": 15577,
+  "delta": false
+ },
+ "models/work/sounds/encoded/8d0dfaeb764f9a46eaad3cef6856200b866d4335f8bc6a230837ab9f192439ee.dsp": {
+  "sha1": "23035036ba8ffbe88f845f20f9d8f0bc56f30460",
+  "size": 7649,
+  "delta": false
+ },
+ "models/work/sounds/encoded/927d399f91a056922d3231a3eb4718e3de7925a65baa987dbe56ca9d4585eadc.dsp": {
+  "sha1": "318cf97e884a80d0863500ac1aafdb69b09c3a5e",
+  "size": 11881,
+  "delta": false
+ },
+ "models/work/sounds/encoded/93ddd8d69627adfcf5290d97b5e3856afeb8b11e9fb885291022e6a480d4d520.dsp": {
+  "sha1": "60a1d9025d9aea78b3820afa549b5957bbe99bbe",
+  "size": 7465,
+  "delta": false
+ },
+ "models/work/sounds/encoded/94721ac94fb7dff0d96ce24f16576ec18dda4b2648860df2e973228b4d67b8ea.dsp": {
+  "sha1": "ae552980b21295daa13d0a744984182ffb075a58",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/981da86a4681c5121fadb3d456f77e4a5f3c47319b6a94391f53dbe88ee15f81.dsp": {
+  "sha1": "311ce9bee40f90513e1372ce3feacda12ef29e93",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/98c3fe338308465bc2d5254393881b3e2e3b4f4f9433bc508e2ce6e8dc6f6284.dsp": {
+  "sha1": "71f73f39d6017fd2369735df9d56aabaea45059e",
+  "size": 17433,
+  "delta": false
+ },
+ "models/work/sounds/encoded/9a33d7bb7d4f868446429cf375f8ff5ff33ddf80a66f850abb89b137c2bfde20.dsp": {
+  "sha1": "0c6aab2d87a77079fe4ea0f50fe213ea4dd2720c",
+  "size": 16465,
+  "delta": false
+ },
+ "models/work/sounds/encoded/9e4dfdd8512a1d6592c5fee1586fbfcf71618d8b7b78444cdb0b19241a0583d8.dsp": {
+  "sha1": "e651582ef13d73b75a77b960c445c455a82de5b9",
+  "size": 8641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/a1f080ee303dca0af40b776b18b6c8df7777edc80fa7f977fdbbcb80b9d3412d.dsp": {
+  "sha1": "85de7d5f633bbbb70046bdda38020d1f464482de",
+  "size": 11537,
+  "delta": true
+ },
+ "models/work/sounds/encoded/a4a51a0fc7b917318b025ad08f36020c304e3f532040b2df3a3f913d16d1ae2e.dsp": {
+  "sha1": "359556a75c5665dca5577d06eaa8ec0ab90e2921",
+  "size": 7569,
+  "delta": false
+ },
+ "models/work/sounds/encoded/a51587ea86e650c19b9a19a8ebe980298c121cac2ea7b315643d7745fc9faf1c.dsp": {
+  "sha1": "3351e236644a3d4d89128a7691a0b60197b8ffa0",
+  "size": 9417,
+  "delta": false
+ },
+ "models/work/sounds/encoded/a7cd96de2a9f567900c917af816ae1c5565ff7710c5182e4f31f23aa07159274.dsp": {
+  "sha1": "c0b4ed959426ca6a556c8cfeac5ec2221cb5ca44",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/a81113ee1f49ddc9f2a73518cc0b8d2f682a70b9c5d8ca93647f6c7d80b12af7.dsp": {
+  "sha1": "928ea802a1f03b19ef5b0bc104e6b7d8b9ee566b",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/a9a58dc97e660bf3f903d1e8d480f915ab425b74f1970f99955af69cdbf3b715.dsp": {
+  "sha1": "7c3ebe8e608cbd5ce7eec4b175e97aa40d25b344",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/aac10b5363c198eb16245f28ddae0f83aee9f7093d4929e90675ffcb245ca580.dsp": {
+  "sha1": "55fda6ad520faa5b6c6735c6d8f7a15776fbf956",
+  "size": 9073,
+  "delta": false
+ },
+ "models/work/sounds/encoded/ac36085418eb2a093ac987294a5db0be018b9bc87617f61447bbdfce3f99df62.dsp": {
+  "sha1": "df302a464c4f9c004675cc1faf59bb80d1a0aae5",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/ac3c863957aad826eea1f0c5d941703d093cfb902680e63f30d8cd02855c90a5.dsp": {
+  "sha1": "c6c4ff3f1b895307e9ebda59be83aa065a6f0ef1",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b2cb027c85efe27701ad57846f6f3bbaa582c502cbf3d4b0752c6005c4c5b6d1.dsp": {
+  "sha1": "5ea17c4c20ee582805418fbb9d412f977c468552",
+  "size": 6153,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b44536b550f26e6744ab9756dbaa22bbfbe27a6ff661de4d708deba98729f97a.dsp": {
+  "sha1": "814970aa5b319c1f93e9aed0c26353ed947c8d71",
+  "size": 8393,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b4c2d2736abeba01970d7dac4a5ec4e77b77efdc1f5020b276984a7461d2880b.dsp": {
+  "sha1": "c69d24d7f06fd601c48664ca333b8554b1ff6888",
+  "size": 16961,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b4ee21ff5a60e487d6d68230b1d354d2ee5db01606bc7847f35a181094efefd6.dsp": {
+  "sha1": "0e2b032c161d324c831d90e7d97586585c98f228",
+  "size": 4313,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b5015a9c6899afeaf9c75e7bc3ac4775321f2c7542d8da023acfa669741a00c4.dsp": {
+  "sha1": "0c5974838ac18bdf048e156079544a69eee7a051",
+  "size": 8785,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b8b10f3a3fd0c005a1281a11fec6fcee3fb0755606d758e5a10209cd32bed6fa.dsp": {
+  "sha1": "bbfc1dc43ba6e6a103144628699034067bb4c3cb",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b9b6f891d1c751fb837b819824dcb03280ee5c4f5b99907d643aa4a34c0f61c6.dsp": {
+  "sha1": "eeed9944051a0c367fa1207e0597706305f22dda",
+  "size": 15473,
+  "delta": false
+ },
+ "models/work/sounds/encoded/b9cbf485e5b08eac89a4f09955b9c1a1f1d677ace73aaab82d0a4811e82d0ac0.dsp": {
+  "sha1": "44ad8ab4533c52d9c4b2caf9dcf88eecc12c22f6",
+  "size": 7265,
+  "delta": false
+ },
+ "models/work/sounds/encoded/ba760cfbfe9ec53a6ecac28ab06e46e6055dcf65d4e84cf09c9ecdb8e94b78bc.dsp": {
+  "sha1": "fd60cf30c24ecf78b7b1c531e2d4f50acf8534f6",
+  "size": 14281,
+  "delta": false
+ },
+ "models/work/sounds/encoded/be0b43a035409e9e085d738d890525ddbbff7932d549eaee148f709d0cb79f6c.dsp": {
+  "sha1": "a757df211c54e137797989068582d7f941feedea",
+  "size": 4113,
+  "delta": false
+ },
+ "models/work/sounds/encoded/be0e3519141a1227501835ff334abce96d728f0daf286f0477e314ed2906f7dc.dsp": {
+  "sha1": "9587541b245749ef88b359085302d90bfb601963",
+  "size": 16521,
+  "delta": false
+ },
+ "models/work/sounds/encoded/c2b43b04f4c88b786a1c004d78ff9e6ca170563bbcb5ad8e3dc29d98dbcd1b01.dsp": {
+  "sha1": "8c1a07a3be00db3a81467c0fe8329b801a3a2d16",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/c528acb591e4d9f33fd88172ef1c378a772143cfd307948e4bc26c3d957707fa.dsp": {
+  "sha1": "a246dc16224d14b698d4d2f9a43be7d601b144b9",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/c623c817158e8c2df3c9245bf2d017084234040ea4dfd4973a07a0540c1755bc.dsp": {
+  "sha1": "3c60d24d4a5dc1f162139a8e445eae248005e29c",
+  "size": 11345,
+  "delta": false
+ },
+ "models/work/sounds/encoded/c656dbec6e6b54b3fc65fa2fcf18f7fb97c0bb74c87c062b60eef5665a9cb97b.dsp": {
+  "sha1": "cea09fd1e23b5efce66b19a06cdb45b74aaaa61b",
+  "size": 15201,
+  "delta": false
+ },
+ "models/work/sounds/encoded/c7e6dc976993be6902c6ea57edc0ec4733b3d642fb7cbefbd99fe79e7c506388.dsp": {
+  "sha1": "8af28faa4d0f56592ff02440c90b98953452dcde",
+  "size": 3337,
+  "delta": false
+ },
+ "models/work/sounds/encoded/c8023900bb1e499dc3435f2a0a555e491edd66a3bcde346ec78906c73bb74f8f.dsp": {
+  "sha1": "dea53593921ceea07616233fc9a0c8ff11d8d88d",
+  "size": 12449,
+  "delta": false
+ },
+ "models/work/sounds/encoded/ce1dc924f0d67a656cec3382fa81f8b3637ffe3e1c9e49f56cf773084f790d70.dsp": {
+  "sha1": "024365fe6b93869525cf6704da1761b65ce074a9",
+  "size": 5249,
+  "delta": false
+ },
+ "models/work/sounds/encoded/d2e3f1cbcee9eaeb60f1cf9b1029ab02428c72dfb66c333db478dd86180b0f84.dsp": {
+  "sha1": "41675505a92b7271a86ece920de64f10df0181a9",
+  "size": 13489,
+  "delta": false
+ },
+ "models/work/sounds/encoded/d5b4a4c7b8d1aed60e61a6a024da9264107cb6049238c7eb369795d56521c7b4.dsp": {
+  "sha1": "9357bd07d1723e397a14b8093dcebf6a972fd0cd",
+  "size": 11137,
+  "delta": false
+ },
+ "models/work/sounds/encoded/d68e636f4852822e45ea1eee93eb807042e95fa669619b95edb997d922abbc25.dsp": {
+  "sha1": "eb0af615b2c879f9d959fa57feed282778941efd",
+  "size": 4233,
+  "delta": false
+ },
+ "models/work/sounds/encoded/d69de53ade04a50cc2c88e7ee1392c4ccc34d4a927d065084b6aca643d06877b.dsp": {
+  "sha1": "10ab07104cff15a4a6a16fbec840e9806d7667e4",
+  "size": 15761,
+  "delta": false
+ },
+ "models/work/sounds/encoded/dbe6950b9d20726569f9ac4028267c7cec0f3b7e843bcffe97ea09130aa80f35.dsp": {
+  "sha1": "e689d8b3b6926fbc0f22a3f106903db5ee1b91a8",
+  "size": 17497,
+  "delta": false
+ },
+ "models/work/sounds/encoded/df687a66a86e7cd022bc79e012fb4b4bf17a204ace96830b30503d0f605a0885.dsp": {
+  "sha1": "2e216a223aec3b7f12c9dc40de188f44be36abed",
+  "size": 7745,
+  "delta": false
+ },
+ "models/work/sounds/encoded/e1929bf13dbd7bf73c84ff6fa245e9763bce60b747a3ef592e94e78c7446f80c.dsp": {
+  "sha1": "62e3f3dddabdc5cae98b05f4feb0ca84eb691870",
+  "size": 5673,
+  "delta": false
+ },
+ "models/work/sounds/encoded/e58dea3f1e6ad971b30c30f7336d2db0b4ea1e66b441bb8a309bfc0829281ff0.dsp": {
+  "sha1": "b565d9d502c6a5eb3ada27f3a006b3131a941541",
+  "size": 14145,
+  "delta": false
+ },
+ "models/work/sounds/encoded/e5adcaf0445a23f61a76939de20359db911a263e62b0ebc608db7d86ed1a0abf.dsp": {
+  "sha1": "1b88b009378357b5b57d052ef8aa3f5822e3aa5f",
+  "size": 9777,
+  "delta": false
+ },
+ "models/work/sounds/encoded/e73340eae9fd1c25cb4dd3daa774ba42ea601cb572c98597bf59bd37cd612f7a.dsp": {
+  "sha1": "a0fdda2ecd74814806ba3d2079f7edb0486e31f4",
+  "size": 17297,
+  "delta": false
+ },
+ "models/work/sounds/encoded/e9ba4fc087b1dc7a16148483d88a19cf76f174429a3459652c73cf42287833ff.dsp": {
+  "sha1": "78ed195742fb7e4fc5496f8b4c3c4113324f3de0",
+  "size": 13697,
+  "delta": false
+ },
+ "models/work/sounds/encoded/eb70a3512c0b821860c25d5099eafa6fcc5f5175d16fd9311456308196e25f0e.dsp": {
+  "sha1": "3bb5e534ed16352f6e1bea4c98adc623bb375135",
+  "size": 10225,
+  "delta": false
+ },
+ "models/work/sounds/encoded/edf09d151e22fa9c76157adc6a08f6726dd505573a4a243cb1854692a09603b4.dsp": {
+  "sha1": "63d597b6f1f096a4706a4879db7cd3ddbb147306",
+  "size": 17641,
+  "delta": false
+ },
+ "models/work/sounds/encoded/f5159858344857cf5798b4d393d03b192cfdbf3fad78c2a33450bda64f45e019.dsp": {
+  "sha1": "598a3522fd517b38eb53e79e71e49ee70ea2ad2c",
+  "size": 6577,
+  "delta": false
+ },
+ "models/work/sounds/encoded/fd48f18f390774c02ca260c1bc0e2e4ed6fe48e383844afb1f14b10bbca66c65.dsp": {
+  "sha1": "86979d92c8ea13b2ae959a1cdc6eaa79c08092fc",
+  "size": 15129,
+  "delta": false
+ },
+ "models/work/sounds/encoded/ffa8c088669f014c01ff291901c3e74de234d45e9d2a5fc2b7145a2ab9c1ae5a.dsp": {
+  "sha1": "7a50407be6920895e2c2a4313153312a4c7402bc",
+  "size": 6321,
+  "delta": false
+ },
+ "models/work/sounds/sets/iggy/v1.wav": {
+  "sha1": "3109f1722e8a7e2edf9d2f7e4cacaabaf1ec5a63",
+  "size": 26424,
+  "delta": true
+ },
+ "models/work/sounds/sets/iggy/v10.wav": {
+  "sha1": "8db8f2662467a4d6d430e9611e621933215e093f",
+  "size": 53276,
+  "delta": true
+ },
+ "models/work/sounds/sets/iggy/v11.wav": {
+  "sha1": "257129fcb6fb334b929889c8b2c89e6b50513df0",
+  "size": 21596,
+  "delta": false
+ },
+ "models/work/sounds/sets/iggy/v12.wav": {
+  "sha1": "f0a59fc5afe55e8a382906e44bfbee9048bda1d9",
+  "size": 24162,
+  "delta": false
+ },
+ "models/work/sounds/sets/iggy/v13.wav": {
+  "sha1": "c3c6ee0e80698749d2be0b7b3cf43db17d9e23ef",
+  "size": 32472,
+  "delta": false
+ },
+ "models/work/sounds/sets/iggy/v14.wav": {
+  "sha1": "966ed0d8b669c54ca66828ff9a3e558cd3f37d80",
+  "size": 14666,
+  "delta": true
+ },
+ "models/work/sounds/sets/iggy/v3.wav": {
+  "sha1": "db02283ac2cae242837b26a27e73c3eb0261e1a6",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/iggy/v4.wav": {
+  "sha1": "6199b5dd1a7f0dc1eb8b8684d2abcf7f2519f842",
+  "size": 22376,
+  "delta": true
+ },
+ "models/work/sounds/sets/iggy/v5.wav": {
+  "sha1": "c3204fa771e9c5759b7b21954e756664f7323a06",
+  "size": 55238,
+  "delta": true
+ },
+ "models/work/sounds/sets/iggy/v6.wav": {
+  "sha1": "cf38e8cf889f722862c45ae409e5df9cb570bbb2",
+  "size": 48008,
+  "delta": false
+ },
+ "models/work/sounds/sets/iggy/v7.wav": {
+  "sha1": "00f91c3169d8367303ba68a58dc9fe04392d4c74",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/iggy/v8.wav": {
+  "sha1": "9751c669cca94f4fe48930e308f9ff3bd95039c9",
+  "size": 52406,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v1.wav": {
+  "sha1": "50005766b3417626be6329a59130fce35a13f90d",
+  "size": 36192,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v10.wav": {
+  "sha1": "bde290516b897e4ffcc2e27c9e001b5d4c7cbee6",
+  "size": 41640,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v11.wav": {
+  "sha1": "be5dfb40077bc842b161c16b57c9ad44bf119759",
+  "size": 13274,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v12.wav": {
+  "sha1": "5d1f778fea4fc0cf19759d31aa39ca0a9e79fb76",
+  "size": 57878,
+  "delta": true
+ },
+ "models/work/sounds/sets/larry/v13.wav": {
+  "sha1": "92da7c44130dee337331d87e8aeae5e1787a7c77",
+  "size": 40432,
+  "delta": true
+ },
+ "models/work/sounds/sets/larry/v14.wav": {
+  "sha1": "d65de9a12766e978ad92b773cc2871a65e0b75c7",
+  "size": 11728,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v3.wav": {
+  "sha1": "7358b39fe6bcde130b39a10623f4952c486f9eb3",
+  "size": 60536,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v4.wav": {
+  "sha1": "6b537939615ce5a81479d920fb6f4d9b6e37824b",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v5.wav": {
+  "sha1": "fed508124b258bdd0a6f55ed913d052de6589ed3",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v6.wav": {
+  "sha1": "221682d46e94fa1cde4a2807a6f138c5513c178c",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v7.wav": {
+  "sha1": "6191daa97640d4278725e3e2fba0ece71b4abd8d",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/larry/v8.wav": {
+  "sha1": "db8ecef005dfb41f2c0da5e6652f192af166d462",
+  "size": 53444,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v1.wav": {
+  "sha1": "1b5804c1e0fb0bd6498d1107ba3a93e51f11b353",
+  "size": 33612,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v10.wav": {
+  "sha1": "4eb4cf0efeef134f00dc2d8619628033541661c5",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v11.wav": {
+  "sha1": "adcbc7a44f0008e2857cbc183cbebe258fe742f7",
+  "size": 25922,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v12.wav": {
+  "sha1": "1c6e0e0c9f04793cb5085c34a791763ca38e143b",
+  "size": 29438,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v13.wav": {
+  "sha1": "107152ccbace9fcd5d205e833f781ecb33def7e9",
+  "size": 45284,
+  "delta": true
+ },
+ "models/work/sounds/sets/lemmy/v14.wav": {
+  "sha1": "420ccb2065396822ec751c046c4ca4312ee048a7",
+  "size": 26542,
+  "delta": true
+ },
+ "models/work/sounds/sets/lemmy/v3.wav": {
+  "sha1": "0b17a945876db23d4c5ca05bd43059ba53d69200",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v4.wav": {
+  "sha1": "dfdbd35af5efabc405c0c6513e8a31f8dd566f36",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v5.wav": {
+  "sha1": "d6267e18d116340d0598f8311bda5f2a6a5df250",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v6.wav": {
+  "sha1": "097d55245acf099cc6197765bfa7ecef0a2617b7",
+  "size": 47272,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v7.wav": {
+  "sha1": "29fc1c52a244993229fa2cc0950966173bb69e46",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/lemmy/v8.wav": {
+  "sha1": "66953df8fe0a344f26a93009df644850c30aabbe",
+  "size": 48350,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v1.wav": {
+  "sha1": "1f4e47a75cce45a0fe1977cb2578f05d4636bcc3",
+  "size": 40876,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v10.wav": {
+  "sha1": "0c3e835a19e3e1ff23849e55833933cb6dc6a083",
+  "size": 29620,
+  "delta": true
+ },
+ "models/work/sounds/sets/ludwig/v11.wav": {
+  "sha1": "6b35dee59e64b2ee276e337b0ecb6ab1902d6a73",
+  "size": 15150,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v12.wav": {
+  "sha1": "182e108e90564ce744cdd8c9d81af751be293453",
+  "size": 21406,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v13.wav": {
+  "sha1": "4ef3b5effa15c59701e02c7ce33bfee075c421d8",
+  "size": 54568,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v14.wav": {
+  "sha1": "2f51e6d4820fdb5d465145763b9a29044ed91203",
+  "size": 19916,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v3.wav": {
+  "sha1": "a3c156f212a393485645cd614a7c45dcfef2ada8",
+  "size": 61296,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v4.wav": {
+  "sha1": "a58b0c057385143dc811a3c132713e0d7cd93082",
+  "size": 54216,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v5.wav": {
+  "sha1": "79fb9257bdb4514185190f65c703b1560aa9c1fa",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v6.wav": {
+  "sha1": "8ebd2b6922d83af05c102e2b48d494d01b37e403",
+  "size": 57992,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v7.wav": {
+  "sha1": "1064b0dd1ab20ef667d009d7cacc1c26448ee1ef",
+  "size": 55656,
+  "delta": false
+ },
+ "models/work/sounds/sets/ludwig/v8.wav": {
+  "sha1": "3cce1f3cc6bcfad6ebea29e9c1364b01f6e116e5",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v1.wav": {
+  "sha1": "96c822e0718b7c078b3b8e8b80fdfa645d333b58",
+  "size": 35840,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v10.wav": {
+  "sha1": "07e62667b457b71e251a025c5963a361a2863353",
+  "size": 43640,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v11.wav": {
+  "sha1": "e5856b341d1c76e1df74ba70bb8c71cd575e82d3",
+  "size": 13564,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v12.wav": {
+  "sha1": "7ad882af7659bb7f5e9944d6cf685380c9aef3c8",
+  "size": 30316,
+  "delta": true
+ },
+ "models/work/sounds/sets/morton/v13.wav": {
+  "sha1": "7258bf486f57304c401b51df59304c3d8423a3c1",
+  "size": 30816,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v14.wav": {
+  "sha1": "1232cd7d4f8e3e26e877423428726e4eebcff78a",
+  "size": 18422,
+  "delta": true
+ },
+ "models/work/sounds/sets/morton/v3.wav": {
+  "sha1": "981b17e3a3eb99e853d3ed27933f82eed847c454",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v4.wav": {
+  "sha1": "8839798f8c0694ca1d18d7a3e5a6fc7b9c00c9ee",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v5.wav": {
+  "sha1": "e6365513341b5b3ba239423e9203ce085f765b89",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v6.wav": {
+  "sha1": "0fd92e3d3373faadcc5834d8d2e435a1a32ace1a",
+  "size": 53020,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v7.wav": {
+  "sha1": "701c3717258884fa77c5689fdb2210f35e21e582",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/morton/v8.wav": {
+  "sha1": "b8da6a718985a0f9bf56561aaedf70369f43bdf8",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v1.wav": {
+  "sha1": "de377147f0310047cc4d5f1f9f89fba4ffbab2c2",
+  "size": 31824,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v10.wav": {
+  "sha1": "9d69fe3943e20e9a73ea8755ba37b2cc9ed14a10",
+  "size": 48242,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v11.wav": {
+  "sha1": "4c1b484668b9c4c0848bc3e835fa0f2cad26ac8a",
+  "size": 14644,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v12.wav": {
+  "sha1": "3034ec7ef4956453af684a4a127c6c2c862eaf2c",
+  "size": 59412,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v13.wav": {
+  "sha1": "bf122c9cf4c28b4f3991a33f239d9c3dbbb73a21",
+  "size": 49570,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v14.wav": {
+  "sha1": "e28782b75adf476ac59cda0012281d1e67dc67e7",
+  "size": 25498,
+  "delta": true
+ },
+ "models/work/sounds/sets/rosalina/v3.wav": {
+  "sha1": "e2027e5f08fa99c776238ae34bc1709d2b4f984d",
+  "size": 50048,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v4.wav": {
+  "sha1": "859b84969293f6f64fd2b7421ad1305435c68142",
+  "size": 57684,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v5.wav": {
+  "sha1": "02fabb66e6ea50c0c221dff9df43bb71cd454e11",
+  "size": 60204,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v6.wav": {
+  "sha1": "519d428c07a86f3c106bf5627f478dea2aaccaa0",
+  "size": 39040,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v7.wav": {
+  "sha1": "a85339951a0221bb78910af1b894078f4e60d7dc",
+  "size": 33024,
+  "delta": false
+ },
+ "models/work/sounds/sets/rosalina/v8.wav": {
+  "sha1": "5e6a123bdf196484a99df52e8c467f26973bfc53",
+  "size": 58002,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v1.wav": {
+  "sha1": "88c3474292041492746c81d05a3ee2fdaac01687",
+  "size": 39756,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v10.wav": {
+  "sha1": "2e36f61a9659bbbc7fdfc7770c8604bbe0ae16bc",
+  "size": 35938,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v11.wav": {
+  "sha1": "94b46be7ed4a2ded83d119c728971346350e8a4f",
+  "size": 34362,
+  "delta": true
+ },
+ "models/work/sounds/sets/roy/v12.wav": {
+  "sha1": "b507803685221e7140c25aa4c3acc70af7a1fbe6",
+  "size": 26836,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v13.wav": {
+  "sha1": "c57b80b65fc0146f4d50f2ba684ecce58b0956e2",
+  "size": 26202,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v14.wav": {
+  "sha1": "8a2d8a3e870d8cea76c0d2d9020589c13c435ee2",
+  "size": 14886,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v3.wav": {
+  "sha1": "2c5440d710158651c8c7a026c8e3bc85019b5d10",
+  "size": 60608,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v4.wav": {
+  "sha1": "48b8848c9d478129f3d7f9f0e4399766a67fdea0",
+  "size": 31368,
+  "delta": true
+ },
+ "models/work/sounds/sets/roy/v5.wav": {
+  "sha1": "920c7c9a365e295dab85140b784379ac1f707a32",
+  "size": 42944,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v6.wav": {
+  "sha1": "2e20470ab6de3dbb229fc149e9e848aced2b23dc",
+  "size": 34268,
+  "delta": true
+ },
+ "models/work/sounds/sets/roy/v7.wav": {
+  "sha1": "9e11d27774840e02ea1d5984578900f22a5c5459",
+  "size": 61440,
+  "delta": false
+ },
+ "models/work/sounds/sets/roy/v8.wav": {
+  "sha1": "0c7075bc503d45de1f79930f232424c6400aa4d4",
+  "size": 51474,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v1.wav": {
+  "sha1": "54236b999ba59a1312e38b138aea20d839fbeb17",
+  "size": 22188,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v10.wav": {
+  "sha1": "3aa1fda3ad8359d8f2a08f092f7fbc284bed96a8",
+  "size": 53586,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v11.wav": {
+  "sha1": "5e9248e998b3acd5f108d83dfb8ebff9c7c81b76",
+  "size": 23094,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v12.wav": {
+  "sha1": "bffc3fbddeadfd92292be4253c51e9a28c7981dd",
+  "size": 57104,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v13.wav": {
+  "sha1": "eab7bdd04515a96d2e5494a6b9b445dfa95bb3a7",
+  "size": 41420,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v14.wav": {
+  "sha1": "b520839f2fd0feb853cb1b166b0f9ce22e0cf500",
+  "size": 14454,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v3.wav": {
+  "sha1": "4f2f284e6f1044077ff3affa03a7bba4e38e9e52",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v4.wav": {
+  "sha1": "296e97ec4855fd8c0aaec675c10fa17ddb701ae4",
+  "size": 27182,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v5.wav": {
+  "sha1": "4eb7750c071fe2cf0ac99f51dca09c8109f3655e",
+  "size": 48690,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v6.wav": {
+  "sha1": "ae2b6054351e449e87c1c3c9e121324e7afe3525",
+  "size": 61068,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v7.wav": {
+  "sha1": "e396e8669211a24f05065c0820ed6b07a55fef14",
+  "size": 51136,
+  "delta": false
+ },
+ "models/work/sounds/sets/wendy/v8.wav": {
+  "sha1": "9458d1724038287aaf57e2b96179c873b255eb90",
+  "size": 61816,
+  "delta": false
+ },
+ "models/work/starbit/prop.bin": {
+  "sha1": "c3200547c75d781a55000984b731df57777b840a",
+  "size": 22944,
+  "delta": true
+ },
+ "models/work/wendy/pack/high.bin": {
+  "sha1": "44ed787d93c9bcb422af7a4dface897c9519a273",
+  "size": 431680,
+  "delta": true
+ },
+ "models/work/wendy/pack/low.bin": {
+  "sha1": "eed80d91337ff5c7d0c0ad5d5540ccd0dfb4c637",
+  "size": 73280,
+  "delta": true
+ },
+ "recolors/volcano-pianta.json": {
+  "sha1": "dfe1536a29061d55420871e6f8e8a9e3c937204f",
+  "size": 422,
+  "delta": false
+ },
+ "scripts/creators/presets/bullet-bill.slgitem": {
+  "sha1": "9ceaed0335fb9e4d0713693fe1a91029af7332fb",
+  "size": 936,
+  "delta": false
+ },
+ "scripts/creators/presets/ice.slgitem": {
+  "sha1": "d80645faecb8252598368b7f28417cbbdfc89ca8",
+  "size": 800,
+  "delta": false
+ },
+ "scripts/creators/presets/iggy.slgitem": {
+  "sha1": "582862f3252bdb0119368f39edfdb99ae3ede243",
+  "size": 826,
+  "delta": false
+ },
+ "scripts/creators/presets/larry.slgitem": {
+  "sha1": "f3525c92567c5033c78c5722cd3431bcc2a55576",
+  "size": 848,
+  "delta": false
+ },
+ "scripts/creators/presets/lemmy.slgitem": {
+  "sha1": "87cd843bcac51e139c6e23335ee34f036a0b4cf5",
+  "size": 917,
+  "delta": false
+ },
+ "scripts/creators/presets/ludwig.slgitem": {
+  "sha1": "f0deeae15124c688725095c1790b87fd2efd0a20",
+  "size": 836,
+  "delta": false
+ },
+ "scripts/creators/presets/star-bits.slgitem": {
+  "sha1": "d42ec99c5bd6d2eddebc47ccafbb829f5e12ed5b",
+  "size": 1197,
+  "delta": false
+ },
+ "scripts/creators/presets/wendy.slgitem": {
+  "sha1": "b8c5881a47ddbc9ec06956adfa1e165ea0898f1a",
+  "size": 1147,
+  "delta": false
+ },
+ "scripts/hilo_pairs.tsv": {
+  "sha1": "6a7716ce496f38ba6855ee7d817dd51b549a6a11",
+  "size": 1021446,
+  "delta": false
+ },
+ "scripts/patcher/editions/characters-beta-items.trace.json": {
+  "sha1": "ab435f18e366acc8fb2ebd8de59e20de860b5fce",
+  "size": 1379,
+  "delta": false
+ },
+ "scripts/patcher/editions/characters-beta.json": {
+  "sha1": "7fb3b16c863509d40f6cc377f9f2abf71a56f79a",
+  "size": 2627,
+  "delta": false
+ },
+ "scripts/patcher/features_text.json": {
+  "sha1": "d6827b35ebcbb517f904757e46b005fe9298c4fc",
+  "size": 26975,
+  "delta": false
+ },
+ "scripts/patcher/notes_entries.json": {
+  "sha1": "d78116228f83896478723c2bea8921a60a67e22e",
+  "size": 30560,
+  "delta": false
+ },
+ "scripts/patcher/profiles/characters-beta.json": {
+  "sha1": "01da8249660f280cb5ad6236a8a7757c250e8ff9",
+  "size": 1089,
+  "delta": false
+ }
+}

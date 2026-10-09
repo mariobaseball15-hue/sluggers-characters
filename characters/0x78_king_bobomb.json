@@ -1,0 +1,65 @@
+{
+ "id": "0x78",
+ "name": "King Bob-omb",
+ "template": "Wario",
+ "scale": 1.34,
+ "_why_scale": "Size pass 2 (Nick: the model fills its template skeleton like the template's own; scale is only how much bigger or smaller than the template, since it also sets the strike zone): 1.40x Mario's in-game height (model height x the Wario sizescale row x scale; Mario = 1.0). Was 1.17: his model now fills Wario's skeleton like Wario's own (fit_height 1.0, was 1.15, so 1.17 left his strike zone 1.15x too small).",
+ "color": "black",
+ "voice": "king-bobomb",
+ "model_blocks": {
+  "0": "models/work/king-bobomb/pack/high.bin",
+  "1": "models/work/king-bobomb/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/king-bobomb_side.png",
+  "front": "models/work/icons/new/king-bobomb_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/king-bobomb.bin",
+  "_why": "King K. Rool's mace with red crown-jewel gems, x0.873 about the grip so it keeps its size when his scale went 1.17 -> 1.34: python scripts/bat_recolors.py king-bobomb"
+ },
+ "_why_template": "Wario: his round body and short legs carry the Bob-omb body, and his foot bones carry the feet (King Boo has no legs)",
+ "batting_item": "bobomb",
+ "item_ability": "Bomb Squad",
+ "stats": {
+  "character class": 1,
+  "weight": 4,
+  "fielding ability": 0,
+  "baserunning ability": 0,
+  "slap size": 54,
+  "charge size": 34,
+  "slap power": 60,
+  "charge power": 92,
+  "bunting": 8,
+  "speed": 18,
+  "outfield throwing": 90,
+  "fielding": 34,
+  "displayed pitching": 5,
+  "displayed batting": 9,
+  "displayed fielding": 3,
+  "dis speed": 1,
+  "curveball speed": 136,
+  "charge pitch speed": 150,
+  "curve": 20,
+  "curse ball": 92,
+  "star swing": 7,
+  "captain": 1,
+  "star pitch": 15
+ },
+ "_why_stats": "Captain flag and Wario's star swing 7 (Phony Swing) set here: Wario's own row no longer has it (he isn't a captain). The menus name it \"Kingly Kaboom\" (star_move_labels.py). Star pitch 15 is his own Bob-omb Drop (scripts/pitch_bobomb_drop.py, docs/bobomb-drop.md; star_move_labels.PITCH_NAMES).",
+ "chemistry": {
+  "Mario": 0,
+  "Luigi": 0,
+  "Bowser": 2,
+  "Wario": 0,
+  "Green Koopa Troopa": 2,
+  "King Boo": 2,
+  "Goomba": 2,
+  "Paragoomba": 2,
+  "Red Koopa Troopa": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Super Mario 64 Bob-omb Battlefield boss (Goombas, Koopas); King Boo is his co-captain; rival big shot Wario.",
+ "table_stats": {
+  "catch normal": 212.71
+ }
+}

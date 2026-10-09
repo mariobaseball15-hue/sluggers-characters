@@ -1,0 +1,65 @@
+{
+ "id": "0x67",
+ "name": "Boom Boom",
+ "template": "Bowser",
+ "color": "orange",
+ "voice": "boomboom",
+ "scale": 1.01,
+ "_why_scale": "Size pass (Nick): 1.30x Mario's in-game height (model height x the Bowser sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 0.75 (0.97x).",
+ "model_overlay": "boomboom-over-bowser",
+ "model_blocks": {
+  "0": "models/work/boomboom/pack/high.bin",
+  "1": "models/work/boomboom/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/boomboom_side.png",
+  "front": "models/work/icons/new/boomboom_front.png"
+ },
+ "stats": {
+  "character class": 1,
+  "weight": 4,
+  "fielding ability": 13,
+  "baserunning ability": 5,
+  "slap size": 52,
+  "charge size": 34,
+  "slap power": 58,
+  "charge power": 86,
+  "bunting": 10,
+  "speed": 32,
+  "outfield throwing": 82,
+  "fielding": 38,
+  "displayed pitching": 5,
+  "displayed batting": 8,
+  "displayed fielding": 3,
+  "dis speed": 3,
+  "curveball speed": 134,
+  "charge pitch speed": 150,
+  "curve": 22,
+  "curse ball": 72,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Mario": 0,
+  "Luigi": 0,
+  "Bowser": 2,
+  "Red Toad": 0,
+  "Bowser Jr.": 2,
+  "Hammer Bro": 2,
+  "Blue Toad": 0,
+  "Yellow Toad": 0,
+  "Green Toad": 0,
+  "Purple Toad": 0,
+  "Fire Bro": 2,
+  "Boomerang Bro": 2,
+  "Orange Toad": 0,
+  "Ice Bro": 2,
+  "Pom Pom": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). SMB3 / 3D Land fortress boss; paired with Pom Pom; guards the Toads' captured houses.",
+ "table_stats": {
+  "strike zone height": 1.023
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser's zone sits 36% of the way up its body in the batting stance (1.100 on 0.00..3.03); this body is 0.00..2.82, so 1.023 (the template's 1.100 would sit at 39%). World height = this x sizescale x scale"
+}

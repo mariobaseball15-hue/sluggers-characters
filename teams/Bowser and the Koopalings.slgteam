@@ -1,0 +1,38 @@
+{
+ "format": "sluggers-team",
+ "version": 2,
+ "captain": "Bowser",
+ "players": [
+  "Larry",
+  "Iggy",
+  "Lemmy",
+  "Ludwig",
+  "Wendy",
+  "Roy",
+  "Morton",
+  "Bowser Jr."
+ ],
+ "order": [
+  "Larry",
+  "Lemmy",
+  "Ludwig",
+  "Bowser",
+  "Roy",
+  "Morton",
+  "Wendy",
+  "Iggy",
+  "Bowser Jr."
+ ],
+ "positions": {
+  "Ludwig": "P",
+  "Bowser": "C",
+  "Roy": "1B",
+  "Wendy": "2B",
+  "Morton": "3B",
+  "Iggy": "SS",
+  "Lemmy": "LF",
+  "Larry": "CF",
+  "Bowser Jr.": "RF"
+ },
+ "about": "Bowser, the seven Koopalings (good chemistry with each other) and Bowser Jr. Ludwig pitches, Bowser catches."
+}

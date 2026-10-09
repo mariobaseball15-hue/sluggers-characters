@@ -1,0 +1,11 @@
+{
+ "name": "Volcano Pianta",
+ "base": "Blue Pianta",
+ "swatch": "black",
+ "id": "0x9E",
+ "_why": "basalt-black skin; the palm fronds and grass skirt burn lava red, the skirt's yellow flame pattern stays yellow",
+ "recolor": [
+  {"hue": [170, 215], "min_sat": 0.15, "to_hue": 240, "sat": 0.15, "val": 0.35},
+  {"hue": [68, 125], "min_sat": 0.2, "to_hue": 14, "sat": 1.0, "val": 1.15, "textures": [0, 1, 2]}
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "format": "sluggers-team",
+ "version": 2,
+ "captain": "Mario",
+ "players": [
+  "Blue Pianta",
+  "Red Pianta",
+  "Blue Noki",
+  "Yellow Pianta",
+  "Red Noki",
+  "Green Noki",
+  "Luigi",
+  "Green Yoshi"
+ ],
+ "order": [
+  "Green Yoshi",
+  "Luigi",
+  "Mario",
+  "Blue Pianta",
+  "Red Pianta",
+  "Yellow Pianta",
+  "Green Noki",
+  "Red Noki",
+  "Blue Noki"
+ ],
+ "positions": {
+  "Mario": "P",
+  "Blue Pianta": "C",
+  "Red Pianta": "1B",
+  "Red Noki": "2B",
+  "Yellow Pianta": "3B",
+  "Luigi": "SS",
+  "Blue Noki": "LF",
+  "Green Yoshi": "CF",
+  "Green Noki": "RF"
+ },
+ "about": "Starter team: every player has good chemistry with the team, none bad (from the game's own chemistry). Lineup: Mario pitches (the team's best pitcher), Blue Pianta catches; Luigi at short, Green Yoshi's speed in center; Green Yoshi and Luigi lead off, Mario and the Piantas bat 3-6."
+}

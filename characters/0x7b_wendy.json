@@ -1,0 +1,56 @@
+{
+ "id": "0x7B",
+ "name": "Wendy",
+ "batting_item": "wendy",
+ "item_ability": "Royal Rings",
+ "always_item": true,
+ "template": "Bowser Jr.",
+ "scale": 0.89,
+ "_why_scale": "Size pass (Nick): 0.95x Mario's in-game height (model height x the Bowser Jr. sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (1.07x).",
+ "color": "pink",
+ "voice": "wendy",
+ "model_blocks": {
+  "0": "models/work/wendy/pack/high.bin",
+  "1": "models/work/wendy/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/wendy_side.png",
+  "front": "models/work/icons/new/wendy_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/wendy.bin",
+  "_why": "Magikoopa's scepter, orb pink: python scripts/bat_recolors.py wendy"
+ },
+ "stats": {
+  "character class": 3,
+  "weight": 1,
+  "fielding ability": 12,
+  "baserunning ability": 5,
+  "slap size": 59,
+  "charge size": 39,
+  "slap power": 27,
+  "charge power": 46,
+  "bunting": 10,
+  "speed": 56,
+  "outfield throwing": 66,
+  "fielding": 74,
+  "displayed pitching": 7,
+  "displayed batting": 4,
+  "displayed fielding": 7,
+  "dis speed": 5,
+  "curveball speed": 126,
+  "charge pitch speed": 138,
+  "curve": 66,
+  "curse ball": 46,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {"Larry": 2, "Iggy": 2, "Lemmy": 2, "Ludwig": 2, "Roy": 2, "Morton": 2},
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). The Koopaling princess: gets on with Peach and Birdo, clashes with Daisy.",
+ "table_stats": {
+  "hit trajectory": 0,
+  "strike zone height": 1.304
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser Jr.'s zone sits 67% of the way up its body in the batting stance (1.100 on 0.00..1.64); this body is 0.00..1.95, so 1.304 (the template's 1.100 would sit at 56%). World height = this x sizescale x scale"
+}

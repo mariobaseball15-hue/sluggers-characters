@@ -1,0 +1,86 @@
+{
+ "kind": "item",
+ "format": 1,
+ "name": "Star Bits",
+ "from": null,
+ "files": [],
+ "blocks": {
+  "item": {
+   "type": "item",
+   "chassis": "lob-hazards"
+  },
+  "given": {
+   "type": "given",
+   "roulette": [
+    15,
+    15,
+    15
+   ],
+   "characters": [],
+   "always": false
+  },
+  "spawn": {
+   "type": "spawn",
+   "on": "landing",
+   "what": "bits",
+   "count": 4,
+   "spread": 2.0,
+   "lifetime": 0,
+   "move": {
+    "type": "move",
+    "path": "ground",
+    "hop": {
+     "height": 0.8,
+     "frames": 36.0
+    },
+    "orbit": {
+     "radius": 0.6,
+     "frames": 150.0
+    }
+   },
+   "effect": {
+    "type": "effect",
+    "kind": "slip"
+   },
+   "look": {
+    "type": "look",
+    "model": "star-bit",
+    "scale": 1.5,
+    "colors": [
+     [
+      255,
+      214,
+      40,
+      255
+     ],
+     [
+      70,
+      150,
+      255,
+      255
+     ],
+     [
+      70,
+      225,
+      95,
+      255
+     ],
+     [
+      225,
+      110,
+      255,
+      255
+     ]
+    ]
+   }
+  },
+  "look": {
+   "type": "look",
+   "model": "star-bit",
+   "scale": 1.5,
+   "icon": {
+    "draw": "star-bits"
+   }
+  }
+ }
+}

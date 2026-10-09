@@ -1,0 +1,68 @@
+{
+ "id": "0x74",
+ "name": "Pom Pom",
+ "template": "Bowser Jr.",
+ "scale": 1.12,
+ "_why_scale": "Size pass (Nick): 1.05x Mario's in-game height (model height x the Bowser Jr. sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (0.94x).",
+ "color": "pink",
+ "voice": "pompom",
+ "model_overlay": "pompom-over-bowserjr",
+ "model_blocks": {
+  "0": "models/work/pompom/pack/high.bin",
+  "1": "models/work/pompom/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/pompom_side.png",
+  "front": "models/work/icons/new/pompom_front.png"
+ },
+ "minimap_decoys": true,
+ "running_ability": "Shadow Clone",
+ "_why_running_ability": "Nick: Shadow Clone is a running ability (the shoe icon on the baserunning row; star_move_labels running abilities), not a hitting ability or a special",
+ "bat": {
+  "file": "models/work/bats/pompom.bin",
+  "_why": "Boomerang Bro's boomerang in pink: python scripts/bat_recolors.py pompom"
+ },
+ "stats": {
+  "character class": 2,
+  "weight": 1,
+  "fielding ability": 0,
+  "baserunning ability": 0,
+  "slap size": 70,
+  "charge size": 48,
+  "slap power": 24,
+  "charge power": 44,
+  "bunting": 52,
+  "speed": 76,
+  "outfield throwing": 58,
+  "fielding": 70,
+  "displayed pitching": 5,
+  "displayed batting": 4,
+  "displayed fielding": 7,
+  "dis speed": 7,
+  "curveball speed": 120,
+  "charge pitch speed": 134,
+  "curve": 56,
+  "curse ball": 30,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Mario": 0,
+  "Peach": 0,
+  "Red Shy Guy": 2,
+  "Bowser Jr.": 2,
+  "Hammer Bro": 2,
+  "Blue Shy Guy": 2,
+  "Yellow Shy Guy": 2,
+  "Green Shy Guy": 2,
+  "Gray Shy Guy": 2,
+  "Fire Bro": 2,
+  "Boomerang Bro": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). 3D Land ninja boss who throws boomerangs and clones herself; sister act with Wendy.",
+ "table_stats": {
+  "strike zone height": 1.017
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser Jr.'s zone sits 67% of the way up its body in the batting stance (1.100 on 0.00..1.64); this body is 0.00..1.52, so 1.017 (the template's 1.100 would sit at 72%). World height = this x sizescale x scale"
+}

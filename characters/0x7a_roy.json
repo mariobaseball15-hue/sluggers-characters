@@ -1,0 +1,56 @@
+{
+ "id": "0x7A",
+ "name": "Roy",
+ "batting_item": "bill",
+ "item_ability": "Bill Blaster",
+ "always_item": true,
+ "template": "Bowser Jr.",
+ "scale": 1.57,
+ "_why_scale": "Size pass (Nick): 1.15x Mario's in-game height (model height x the Bowser Jr. sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (0.73x).",
+ "color": "purple",
+ "voice": "roy",
+ "model_blocks": {
+  "0": "models/work/roy/pack/high.bin",
+  "1": "models/work/roy/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/roy_side.png",
+  "front": "models/work/icons/new/roy_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/roy.bin",
+  "_why": "Magikoopa's scepter, orb purple: python scripts/bat_recolors.py roy"
+ },
+ "stats": {
+  "character class": 1,
+  "weight": 3,
+  "fielding ability": 0,
+  "baserunning ability": 5,
+  "slap size": 52,
+  "charge size": 32,
+  "slap power": 48,
+  "charge power": 80,
+  "bunting": 7,
+  "speed": 30,
+  "outfield throwing": 80,
+  "fielding": 46,
+  "displayed pitching": 5,
+  "displayed batting": 8,
+  "displayed fielding": 4,
+  "dis speed": 3,
+  "curveball speed": 128,
+  "charge pitch speed": 144,
+  "curve": 30,
+  "curse ball": 58,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {"Larry": 2, "Iggy": 2, "Lemmy": 2, "Ludwig": 2, "Wendy": 2, "Morton": 2},
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). The bully with sunglasses; bully buddy Wario.",
+ "table_stats": {
+  "hit trajectory": 0,
+  "strike zone height": 0.777
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser Jr.'s zone sits 67% of the way up its body in the batting stance (1.100 on 0.00..1.64); this body is 0.01..1.15, so 0.777 (the template's 1.100 would sit at 95%). World height = this x sizescale x scale"
+}

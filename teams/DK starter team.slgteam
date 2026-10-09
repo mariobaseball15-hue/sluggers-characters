@@ -1,0 +1,38 @@
+{
+ "format": "sluggers-team",
+ "version": 2,
+ "captain": "Donkey Kong",
+ "players": [
+  "Diddy Kong",
+  "Dixie Kong",
+  "Funky Kong",
+  "Tiny Kong",
+  "Baby DK",
+  "Baby Mario",
+  "Baby Luigi",
+  "Baby Peach"
+ ],
+ "order": [
+  "Baby Mario",
+  "Dixie Kong",
+  "Funky Kong",
+  "Donkey Kong",
+  "Baby DK",
+  "Tiny Kong",
+  "Diddy Kong",
+  "Baby Luigi",
+  "Baby Peach"
+ ],
+ "positions": {
+  "Baby Peach": "P",
+  "Donkey Kong": "C",
+  "Funky Kong": "1B",
+  "Dixie Kong": "2B",
+  "Tiny Kong": "3B",
+  "Diddy Kong": "SS",
+  "Baby Luigi": "LF",
+  "Baby Mario": "CF",
+  "Baby DK": "RF"
+ },
+ "about": "Starter team: every player has good chemistry with the team, none bad (from the game's own chemistry). Lineup: Baby Peach pitches (the team's best pitcher), Donkey Kong catches; Diddy and Dixie up the middle, Baby Mario's speed in center; Baby Mario and Dixie lead off, Funky, DK and Baby DK bat 3-5."
+}

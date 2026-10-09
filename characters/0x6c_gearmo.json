@@ -1,0 +1,62 @@
+{
+ "id": "0x6C",
+ "name": "Gearmo",
+ "template": "Red Shy Guy",
+ "color": "white",
+ "voice": "gearmo",
+ "model_overlay": "gearmo-over-shyguy",
+ "model_blocks": {
+  "0": "models/work/gearmo/pack/high.bin",
+  "1": "models/work/gearmo/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/gearmo_side.png",
+  "front": "models/work/icons/new/gearmo_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/gearmo-hammer.bin",
+  "_why": "Hammer Bro's hammer at 0.635x about the grip; x1.26 with him = 0.80x the stock hammer (Nick: his hammer was too big at 0.55; kept about 0.8x after the size pass): python scripts/make_bat.py models/work/bats/gearmo-hammer.bin 45 --scale 0.635"
+ },
+ "scale": 1.26,
+ "_why_scale": "Size pass 2 (Nick: the model fills its template skeleton like the template's own; scale is only how much bigger or smaller than the template, since it also sets the strike zone): 0.90x Mario's in-game height (model height x the Red Shy Guy sizescale row x scale; Mario = 1.0). Was 2.08: his model now fills Shy Guy's skeleton like Shy Guy's own (1.47 tall; it was 0.89, 64%, so 2.08 put his strike zone 1.6x too high).",
+ "stats": {
+  "character class": 3,
+  "weight": 2,
+  "fielding ability": 1,
+  "baserunning ability": 0,
+  "slap size": 62,
+  "charge size": 42,
+  "slap power": 28,
+  "charge power": 48,
+  "bunting": 46,
+  "speed": 60,
+  "outfield throwing": 58,
+  "fielding": 72,
+  "displayed pitching": 5,
+  "displayed batting": 4,
+  "displayed fielding": 7,
+  "dis speed": 6,
+  "curveball speed": 114,
+  "charge pitch speed": 130,
+  "curve": 48,
+  "curse ball": 38,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Wario": 2,
+  "Waluigi": 0,
+  "Red Toad": 2,
+  "Bowser Jr.": 0,
+  "Toadsworth": 2,
+  "Blue Toad": 2,
+  "Yellow Toad": 2,
+  "Green Toad": 2,
+  "Purple Toad": 2,
+  "Goomba": 0,
+  "Orange Toad": 2,
+  "Lubba": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Galaxy 2 robots who help the Toad Brigade; crew on Starship Mario."
+}

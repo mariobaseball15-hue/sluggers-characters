@@ -1,0 +1,61 @@
+{
+ "kind": "item",
+ "format": 1,
+ "name": "Bullet Bill",
+ "from": null,
+ "files": [],
+ "blocks": {
+  "item": {
+   "type": "item",
+   "chassis": "thrown-ball"
+  },
+  "given": {
+   "type": "given",
+   "roulette": [
+    0,
+    0,
+    0
+   ],
+   "characters": [],
+   "always": false
+  },
+  "launch": {
+   "type": "launch",
+   "count": 1,
+   "speed": 0.8,
+   "level": true,
+   "gravity": 0.0
+  },
+  "move": {
+   "type": "move",
+   "path": "home",
+   "home": {
+    "turn_deg": 1.5,
+    "spawn_dist": 60.0
+   }
+  },
+  "hit": {
+   "type": "hit",
+   "targets": [
+    "fielder"
+   ],
+   "dodge_height": 0.2
+  },
+  "effect": {
+   "type": "effect",
+   "kind": "knockdown",
+   "slide_speed": 0.3,
+   "slide_frames": 15
+  },
+  "look": {
+   "type": "look",
+   "model": "bullet-bill",
+   "scale": 1.0,
+   "height": 0.9,
+   "trail": null,
+   "icon": {
+    "draw": "bullet-bill"
+   }
+  }
+ }
+}

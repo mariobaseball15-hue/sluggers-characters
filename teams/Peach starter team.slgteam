@@ -1,0 +1,38 @@
+{
+ "format": "sluggers-team",
+ "version": 2,
+ "captain": "Peach",
+ "players": [
+  "Toadette",
+  "Toadsworth",
+  "Red Toad",
+  "Yellow Toad",
+  "Green Toad",
+  "Purple Toad",
+  "Daisy",
+  "Blue Toad"
+ ],
+ "order": [
+  "Toadette",
+  "Red Toad",
+  "Daisy",
+  "Yellow Toad",
+  "Purple Toad",
+  "Blue Toad",
+  "Green Toad",
+  "Peach",
+  "Toadsworth"
+ ],
+ "positions": {
+  "Peach": "P",
+  "Toadsworth": "C",
+  "Purple Toad": "1B",
+  "Toadette": "2B",
+  "Yellow Toad": "3B",
+  "Daisy": "SS",
+  "Red Toad": "LF",
+  "Green Toad": "CF",
+  "Blue Toad": "RF"
+ },
+ "about": "Starter team: every player has good chemistry with the team, none bad (from the game's own chemistry). Lineup: Peach pitches (the team's best pitcher), Toadsworth catches; Daisy at short, Toadette at second; Toadette and Red Toad lead off, Daisy, Yellow Toad and Purple Toad bat 3-5."
+}

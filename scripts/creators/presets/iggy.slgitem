@@ -1,0 +1,57 @@
+{
+ "kind": "item",
+ "format": 1,
+ "name": "Iggy's Fireball",
+ "from": null,
+ "files": [],
+ "blocks": {
+  "item": {
+   "type": "item",
+   "chassis": "thrown-ball"
+  },
+  "given": {
+   "type": "given",
+   "roulette": [
+    0,
+    0,
+    0
+   ],
+   "characters": [],
+   "always": false
+  },
+  "launch": {
+   "type": "launch",
+   "count": 1,
+   "speed": 2.4,
+   "level": true,
+   "gravity": 0.1
+  },
+  "move": {
+   "type": "move",
+   "path": "skim"
+  },
+  "hit": {
+   "type": "hit",
+   "targets": [
+    "fielder",
+    "runner"
+   ]
+  },
+  "effect": {
+   "type": "effect",
+   "kind": "stun"
+  },
+  "look": {
+   "type": "look",
+   "model": "fireball",
+   "trail": {
+    "hue": 0.25,
+    "lighten": 0.0
+   },
+   "icon": {
+    "from": "fireball",
+    "hue": 0.25
+   }
+  }
+ }
+}

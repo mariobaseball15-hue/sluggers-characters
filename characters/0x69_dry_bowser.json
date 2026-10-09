@@ -1,0 +1,65 @@
+{
+ "id": "0x69",
+ "name": "Dry Bowser",
+ "template": "Bowser",
+ "color": "white",
+ "voice": "dry-bowser",
+ "model_overlay": "dry-bowser-over-bowser",
+ "model_blocks": {
+  "0": "models/work/dry-bowser/pack/high.bin",
+  "1": "models/work/dry-bowser/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/dry-bowser_side.png",
+  "front": "models/work/icons/new/dry-bowser_front.png"
+ },
+ "bat": {
+  "dir": 66,
+  "_why": "Dry Bones' bone"
+ },
+ "stats": {
+  "character class": 1,
+  "weight": 4,
+  "fielding ability": 0,
+  "baserunning ability": 1,
+  "slap size": 50,
+  "charge size": 30,
+  "slap power": 62,
+  "charge power": 77,
+  "bunting": 10,
+  "speed": 22,
+  "outfield throwing": 92,
+  "fielding": 42,
+  "displayed pitching": 5,
+  "displayed batting": 7,
+  "displayed fielding": 4,
+  "dis speed": 2,
+  "curveball speed": 138,
+  "charge pitch speed": 148,
+  "curve": 18,
+  "curse ball": 88,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Mario": 0,
+  "Luigi": 0,
+  "Peach": 0,
+  "Baby Mario": 0,
+  "Baby Luigi": 0,
+  "Bowser": 2,
+  "Bowser Jr.": 2,
+  "Gray Dry Bones": 2,
+  "Green Dry Bones": 2,
+  "Dark Bones": 2,
+  "Blue Dry Bones": 2,
+  "Bouldergeist": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). New Super Mario Bros. final boss; skeleton family with the Dry Bones.",
+ "table_stats": {
+  "star pitch type": 3,
+  "strike zone height": 1.234
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser's zone sits 36% of the way up its body in the batting stance (1.100 on 0.00..3.03); this body is 0.00..3.40, so 1.234 (the template's 1.100 would sit at 32%). World height = this x sizescale x scale"
+}

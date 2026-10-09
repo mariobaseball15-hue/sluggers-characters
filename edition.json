@@ -1,0 +1,93 @@
+{
+  "name": "Sluggers Characters Beta",
+  "iso_name": "Sluggers Mod",
+  "layout": "single",
+  "features": [
+    "new-ids",
+    "recolor-tool",
+    "voices",
+    "boot-captain-select",
+    "boot-game",
+    "cpu-vs-cpu",
+    "match-seed",
+    "no-replays",
+    "menu-color",
+    "clamber-solo-jump",
+    "captains",
+    "level-5",
+    "cpu-perfect-batting",
+    "cpu-perfect-pitching",
+    "cpu-perfect-fielding",
+    "cpu-perfect-running",
+    "cpu-pitching",
+    "cpu-charge-timing",
+    "cpu-batter-track",
+    "cpu-no-bunts",
+    "cpu-cursed-ball",
+    "cpu-star-swings",
+    "cpu-no-star-pitches",
+    "cpu-rundown",
+    "cpu-items",
+    "cpu-item-defense",
+    "cpu-subs",
+    "cpu-settings",
+    "bench",
+    "fielder-spots",
+    "fixed-items",
+    "item-ability",
+    "item-odds",
+    "new-roulette-item",
+    "item-variants",
+    "item-engine",
+    "koopaling-items"
+  ],
+  "follow_settings": [
+    "clamber-solo-jump"
+  ],
+  "creators": [
+    "item"
+  ],
+  "never_rolled": [
+    "starbits"
+  ],
+  "hide_tabs": [
+    "Features",
+    "Captains",
+    "Create",
+    "Stadiums",
+    "Abilities"
+  ],
+  "hide_character_settings": true,
+  "captain_words": {
+    "not_built": "{name} isn't in the game: put them in first",
+    "no_swing": "{name} has no captain star moves: as a captain they use the generic star swing and pitch (to give them their own, click them on the grid and set Captain star moves to Yes)",
+    "no_swing_short": "no captain star moves (uses the generic ones)",
+    "no_art": "{name} has no captain art of their own, so theirs is drawn from their 3D model when you patch (portrait, figure, emblem and team logo)"
+  },
+  "no_help": true,
+  "cpu_levels_editable": [
+    4,
+    5
+  ],
+  "profile": "profiles/characters-beta.json",
+  "trace_profiles": [
+    "editions/characters-beta-items.trace.json"
+  ],
+  "intro": "Sluggers Characters Beta adds Rosalina, from Jbiscuit's Extra Innings mod, with her own voice, the seven Koopalings (Larry, Morton, Wendy, Iggy, Roy, Lemmy and Ludwig), each with their own voice and always bringing their own item, and one recolor, Volcano Pianta (a black and lava-red Pianta). Rosalina plays with the moves of Daisy, the stock character she's built on, and the Koopalings with Bowser Jr.'s. Make your own recolors, and change any character's stats, chemistry and names.",
+  "intros": {
+    "characters": "Changes any character's stats, chemistry and names, stock or new (pick one, then Edit stats, chemistry and names...)."
+  },
+  "characters": [
+    "0x81_rosalina",
+    "0x75_iggy",
+    "0x76_lemmy",
+    "0x77_ludwig",
+    "0x79_morton",
+    "0x7a_roy",
+    "0x7b_wendy",
+    "0x83_larry"
+  ],
+  "recolors": [
+    "volcano-pianta"
+  ]
+}

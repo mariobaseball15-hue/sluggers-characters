@@ -1,0 +1,38 @@
+{
+ "format": "sluggers-team",
+ "version": 2,
+ "captain": "Bowser",
+ "players": [
+  "Blue Magikoopa",
+  "Bowser Jr.",
+  "Red Magikoopa",
+  "Fire Bro",
+  "Green Magikoopa",
+  "Hammer Bro",
+  "Yellow Magikoopa",
+  "Boomerang Bro"
+ ],
+ "order": [
+  "Bowser Jr.",
+  "Boomerang Bro",
+  "Fire Bro",
+  "Bowser",
+  "Hammer Bro",
+  "Red Magikoopa",
+  "Yellow Magikoopa",
+  "Green Magikoopa",
+  "Blue Magikoopa"
+ ],
+ "positions": {
+  "Blue Magikoopa": "P",
+  "Bowser": "C",
+  "Hammer Bro": "1B",
+  "Green Magikoopa": "2B",
+  "Yellow Magikoopa": "3B",
+  "Red Magikoopa": "SS",
+  "Boomerang Bro": "LF",
+  "Bowser Jr.": "CF",
+  "Fire Bro": "RF"
+ },
+ "about": "Starter team: every player has good chemistry with the team, none bad (from the game's own chemistry). Lineup: Blue Magikoopa pitches (the team's best pitcher), Bowser catches; the Magikoopas' fielding in the infield, Bowser Jr.'s speed in center; Bowser Jr. leads off, Fire Bro, Bowser and Hammer Bro bat 3-5."
+}

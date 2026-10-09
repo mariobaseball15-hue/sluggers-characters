@@ -1,0 +1,60 @@
+{
+ "id": "0x6E",
+ "name": "Ice Bro",
+ "template": "Fire Bro",
+ "color": "lightblue",
+ "batting_item": "ice",
+ "item_ability": "Cold Snap",
+ "model_overlay": "ice-bro-over-firebro",
+ "model_blocks": {
+  "0": "models/work/ice-bro/blocks/file0.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/ice-bro_side.png",
+  "front": "models/work/icons/new/ice-bro_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/ice-bro.bin",
+  "_why": "Fire Bro's bat, flames recolored ice blue: python scripts/make_bat.py models/work/bats/ice-bro.bin 70 --hue 25 200 40"
+ },
+ "stats": {
+  "character class": 1,
+  "weight": 3,
+  "fielding ability": 7,
+  "baserunning ability": 0,
+  "slap size": 56,
+  "charge size": 22,
+  "slap power": 12,
+  "charge power": 82,
+  "bunting": 12,
+  "speed": 10,
+  "outfield throwing": 84,
+  "fielding": 58,
+  "displayed pitching": 4,
+  "displayed batting": 8,
+  "displayed fielding": 5,
+  "dis speed": 1,
+  "curveball speed": 124,
+  "charge pitch speed": 144,
+  "curve": 34,
+  "curse ball": 60,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Daisy": 0,
+  "Bowser": 2,
+  "Bowser Jr.": 2,
+  "Blue Noki": 0,
+  "Red Noki": 0,
+  "Green Noki": 0,
+  "Blue Magikoopa": 2,
+  "Red Magikoopa": 2,
+  "Green Magikoopa": 2,
+  "Yellow Magikoopa": 2,
+  "Penguru": 2,
+  "Pom Pom": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). New Super Mario Bros. Wii; Bro family; ice vs fire with Fire Bro; snow with Penguru."
+}

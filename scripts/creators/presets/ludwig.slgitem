@@ -1,0 +1,57 @@
+{
+ "kind": "item",
+ "format": 1,
+ "name": "Ludwig's Fireballs",
+ "from": null,
+ "files": [],
+ "blocks": {
+  "item": {
+   "type": "item",
+   "chassis": "thrown-ball"
+  },
+  "given": {
+   "type": "given",
+   "roulette": [
+    0,
+    0,
+    0
+   ],
+   "characters": [],
+   "always": false
+  },
+  "launch": {
+   "type": "launch",
+   "count": 5,
+   "speed": 1.25,
+   "level": false,
+   "gravity": null
+  },
+  "move": {
+   "type": "move",
+   "path": "straight"
+  },
+  "hit": {
+   "type": "hit",
+   "targets": [
+    "fielder",
+    "runner"
+   ]
+  },
+  "effect": {
+   "type": "effect",
+   "kind": "stun"
+  },
+  "look": {
+   "type": "look",
+   "model": "fireball",
+   "trail": {
+    "hue": 0.56,
+    "lighten": 0.0
+   },
+   "icon": {
+    "from": "fireball",
+    "hue": 0.56
+   }
+  }
+ }
+}

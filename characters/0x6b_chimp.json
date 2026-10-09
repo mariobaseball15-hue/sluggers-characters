@@ -1,0 +1,64 @@
+{
+ "id": "0x6B",
+ "name": "Chimp",
+ "template": "Diddy Kong",
+ "scale": 0.69,
+ "_why_scale": "Size pass (Nick): 0.90x Mario's in-game height (model height x the Diddy Kong sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (1.30x).",
+ "color": "brown",
+ "batting_item": "banana",
+ "item_ability": "Monkey Business",
+ "model_overlay": "chimp-over-diddy",
+ "model_blocks": {
+  "0": "models/work/chimp/pack/high.bin",
+  "1": "models/work/chimp/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/chimp_side.png",
+  "front": "models/work/icons/new/chimp_front.png"
+ },
+ "stats": {
+  "character class": 2,
+  "weight": 1,
+  "fielding ability": 14,
+  "baserunning ability": 0,
+  "slap size": 66,
+  "charge size": 46,
+  "slap power": 28,
+  "charge power": 44,
+  "bunting": 42,
+  "speed": 72,
+  "outfield throwing": 50,
+  "fielding": 82,
+  "displayed pitching": 4,
+  "displayed batting": 4,
+  "displayed fielding": 8,
+  "dis speed": 7,
+  "curveball speed": 118,
+  "charge pitch speed": 130,
+  "curve": 46,
+  "curse ball": 28,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Diddy Kong": 2,
+  "Wario": 0,
+  "Red Toad": 2,
+  "Blue Toad": 2,
+  "Yellow Toad": 2,
+  "Green Toad": 2,
+  "Purple Toad": 2,
+  "Dixie Kong": 2,
+  "Tiny Kong": 2,
+  "Orange Toad": 2,
+  "Penguru": 2,
+  "Gearmo": 2,
+  "Gold Gearmo": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Galaxy 2 challenge host who taunts Mario; monkey kin with the Kongs; fellow Galaxy host with Penguru.",
+ "table_stats": {
+  "strike zone height": 1.58
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Diddy Kong's zone sits 62% of the way up its body in the batting stance (1.000 on 0.00..1.60); this body is 0.00..2.53, so 1.580 (the template's 1.000 would sit at 40%). World height = this x sizescale x scale"
+}

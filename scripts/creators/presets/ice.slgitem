@@ -1,0 +1,56 @@
+{
+ "kind": "item",
+ "format": 1,
+ "name": "Ice",
+ "from": null,
+ "files": [],
+ "blocks": {
+  "item": {
+   "type": "item",
+   "chassis": "thrown-ball"
+  },
+  "given": {
+   "type": "given",
+   "roulette": [
+    10,
+    8,
+    8
+   ],
+   "characters": [],
+   "always": false
+  },
+  "launch": {
+   "type": "launch",
+   "count": 3,
+   "speed": 1.0,
+   "level": false,
+   "gravity": null
+  },
+  "move": {
+   "type": "move",
+   "path": "straight"
+  },
+  "hit": {
+   "type": "hit",
+   "targets": [
+    "fielder",
+    "runner"
+   ]
+  },
+  "effect": {
+   "type": "effect",
+   "kind": "freeze"
+  },
+  "look": {
+   "type": "look",
+   "model": "fireball",
+   "trail": {
+    "hue": 0.52,
+    "lighten": 0.0
+   },
+   "icon": {
+    "draw": "ice"
+   }
+  }
+ }
+}

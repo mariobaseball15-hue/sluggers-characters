@@ -1,0 +1,66 @@
+{
+ "id": "0x70",
+ "name": "Penguru",
+ "template": "Wario",
+ "color": "black",
+ "batting_item": "ice",
+ "item_ability": "Cold Snap",
+ "_why_item_ability": "Nick: Penguru bats with the ice item (as Ice Bro, no always_item) and shows Cold Snap; Super Dive added (fielding ability 0 -> 1)",
+ "voice": "penguru",
+ "model_overlay": "penguru-over-wario",
+ "model_blocks": {
+  "0": "models/work/penguru/pack/high.bin",
+  "1": "models/work/penguru/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/penguru_side.png",
+  "front": "models/work/icons/new/penguru_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/penguru.bin",
+  "_why": "Toadsworth's cane in penguin blue: python scripts/bat_recolors.py penguru"
+ },
+ "scale": 1.46,
+ "_why_scale": "Size pass (Nick): 1.25x Mario's in-game height (model height x the Wario sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1.25 (1.07x).",
+ "stats": {
+  "character class": 0,
+  "weight": 3,
+  "fielding ability": 1,
+  "baserunning ability": 0,
+  "slap size": 70,
+  "charge size": 52,
+  "slap power": 30,
+  "charge power": 50,
+  "bunting": 55,
+  "speed": 28,
+  "outfield throwing": 44,
+  "fielding": 56,
+  "displayed pitching": 5,
+  "displayed batting": 5,
+  "displayed fielding": 5,
+  "dis speed": 2,
+  "curveball speed": 100,
+  "charge pitch speed": 116,
+  "curve": 52,
+  "curse ball": 22,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Bowser": 0,
+  "Blue Noki": 2,
+  "Red Noki": 2,
+  "Green Noki": 2,
+  "Hammer Bro": 2,
+  "Toadsworth": 2,
+  "Fire Bro": 2,
+  "Boomerang Bro": 2,
+  "Blooper": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Galaxy penguin elder of Beach Bowl: sea creatures and fellow elder Toadsworth.",
+ "table_stats": {
+  "strike zone height": 0.88
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Wario's zone sits 48% of the way up its body in the batting stance (1.050 on 0.01..2.19); this body is 0.01..1.83, so 0.880 (the template's 1.050 would sit at 57%). World height = this x sizescale x scale"
+}

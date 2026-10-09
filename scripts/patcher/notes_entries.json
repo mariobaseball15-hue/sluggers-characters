@@ -1,0 +1,677 @@
+{
+ "source": "wiki/index.html",
+ "groups": [
+  {
+   "id": "characters",
+   "name": "Characters",
+   "blurb": "Room for more characters."
+  },
+  {
+   "id": "menus",
+   "name": "Captains & select screens",
+   "blurb": "More captains and a bigger character-select grid."
+  },
+  {
+   "id": "stadiums",
+   "name": "Stadiums",
+   "blurb": "A new stadium and changes to existing ones."
+  },
+  {
+   "id": "hazards",
+   "name": "Hazards",
+   "blurb": "Things on the field that get in the fielders' way."
+  },
+  {
+   "id": "items",
+   "name": "Items",
+   "blurb": "One idea per entry, easiest first."
+  },
+  {
+   "id": "swings",
+   "name": "Star swings & pitches",
+   "blurb": "New star swings and star pitches."
+  },
+  {
+   "id": "fielding",
+   "name": "Fielding",
+   "blurb": "Buddy jumps and throws without a buddy."
+  },
+  {
+   "id": "gameplay",
+   "name": "Batting & gameplay",
+   "blurb": "Batting controls, stars, cheers and the mini map."
+  },
+  {
+   "id": "testing",
+   "name": "Testing",
+   "blurb": "Patches that make testing faster."
+  }
+ ],
+ "entries": [
+  {
+   "group": "characters",
+   "id": "new-ids",
+   "title": "Characters past the stock roster",
+   "kind": "files",
+   "summary": "New character ids from 0x66 up, each with its own name, stats, chemistry, color-wheel spot and select square, working in menus and in matches. The select grid grows to fit the squares (up to 12 × 5) and a color wheel to 10.",
+   "try": "In the patcher, tick new characters on the New characters & recolors tab. They appear on the team-roster screen with their own names, each on its own square: the grid grows to fit them (no new square: the stock grid; up to 12 x 5). A recolor or new character on a stock wheel shows as one more swatch, up to 10."
+  },
+  {
+   "group": "characters",
+   "id": "recolor-tool",
+   "title": "Recolored characters",
+   "kind": "files",
+   "summary": "Tick recolors in the patcher, or write your own recipe (which character, which colors to change). Each one joins its character's color wheel as a new playable character with its own model, icons and bat. Color wheels grow past the stock 6 to fit them, up to 10 per wheel.",
+   "try": "Tick a recolor on the New characters & recolors tab. It shows up as a new swatch on its character's color wheel, which grows past 6 swatches when it needs to."
+  },
+  {
+   "group": "characters",
+   "id": "character-editor",
+   "title": "Stats, chemistry and names for any character",
+   "kind": "files",
+   "summary": "Every stat on any character, stock or new: batting, pitching, fielding, running, stamina, star moves and size. Chemistry between any two characters, set separately each way. Names in English, Spanish and French, checked against the name plate.",
+   "try": "On the Characters tab, pick a character and click Edit stats, chemistry and names."
+  },
+  {
+   "group": "characters",
+   "id": "character-packs",
+   "title": "Character files",
+   "kind": "files",
+   "summary": "Share a character as one .slgmodel file and import someone else's: its model (with a copy Blender opens and edits), portraits, name and its own voice clips. The game model is stored as changes to the player's own game; the patcher rebuilds it from there, checks it, and gives the character a free id and a grid square of its own.",
+   "try": "Click Import character (.sluggie, .slgmodel, or model file) and pick a .slgmodel file. The patcher comes with two sample characters."
+  },
+  {
+   "group": "menus",
+   "id": "captains",
+   "title": "Up to 18 captains",
+   "kind": "files",
+   "summary": "Any character with a star swing can be a captain, up to 18, with their own logo, name plate and lineup spot. A stock captain can be replaced, and the figures on the captain-select lineup can be moved.",
+   "try": "On the Captains tab, add a captain from anyone with a star swing, choose who they replace, and drag the figures on the lineup."
+  },
+  {
+   "group": "menus",
+   "id": "grid-order",
+   "title": "Character-select order",
+   "kind": "files",
+   "summary": "Any square can go anywhere on the grid, the characters on a color wheel can be reordered, and a character can move to another wheel or to a square of their own. Each stock square keeps its own first character.",
+   "try": "On the Select grid tab, drag a square onto another to swap them, or click one to move the characters on its color wheel."
+  },
+  {
+   "group": "menus",
+   "id": "menu-color",
+   "title": "Menu background color",
+   "kind": "files",
+   "summary": "Pick the color of the background behind the front-end menus: purple, red, green, orange, pink, teal, black, or any color as #RRGGBB. The dot pattern and glow follow it. Very light colors make the white pattern and letters hard to read.",
+   "try": "Tick Menu background color and pick a preset or type a #hex color under it. Every menu's background uses it; it works on its own, even on an otherwise clean game."
+  },
+  {
+   "group": "stadiums",
+   "id": "new-stadium",
+   "title": "A new stadium",
+   "kind": "files",
+   "summary": "An 11th stadium (id 10) with its own slot on the stadium-select map. No stock stadium is replaced.",
+   "try": "Tick A new stadium. It sits in the sky above Toy Field on the stadium-select map."
+  },
+  {
+   "group": "stadiums",
+   "id": "day-night-scenes",
+   "title": "Separate day and night stadiums",
+   "kind": "files",
+   "summary": "One stadium loads a different scene by day and by night, each with its own loading picture. Ours is Bob-omb Battlefield by day and Good Egg Gridiron by night.",
+   "try": "Comes with A new stadium. Pick it by day for Bob-omb Battlefield and by night for Good Egg Gridiron."
+  },
+  {
+   "group": "stadiums",
+   "id": "select-map-day-night",
+   "title": "Stadium-select map by time of day",
+   "kind": "files",
+   "summary": "The stadium-select map shows a different logo, icon and banner for a stadium's day and night versions.",
+   "try": "Comes with A new stadium. Switch the map between day and night and the new stadium's icon, logo and banner change."
+  },
+  {
+   "group": "stadiums",
+   "id": "dimensions",
+   "title": "Field dimensions by time of day",
+   "kind": "files",
+   "summary": "Each time of day has its own fences, collision and outfielder spots.",
+   "try": "Tick Field dimensions (needs A new stadium). The fences and outfield spots differ between its day and night versions."
+  },
+  {
+   "group": "stadiums",
+   "id": "moving-scenery",
+   "title": "Moving backgrounds",
+   "kind": "files",
+   "summary": "Background scenery moves during the game: floating islands bob, a Chain Chomp lunges, planets turn.",
+   "try": "Comes with A new stadium. Look past the outfield for bobbing islands by day and turning planets at night."
+  },
+  {
+   "group": "stadiums",
+   "id": "mansion-day",
+   "title": "Luigi's Mansion by day",
+   "kind": "files",
+   "summary": "Luigi's Mansion becomes playable by day.",
+   "try": "Tick Luigi's Mansion by day. Switch the stadium map to day and Luigi's Mansion is there."
+  },
+  {
+   "group": "stadiums",
+   "id": "stadium-builder",
+   "title": "Build a stadium",
+   "kind": "files",
+   "summary": "A stadium from building blocks: a scene for each time of day (Mario Stadium's, ours, or your own brought in as OBJ or DAE), lighting, music (including your own WAV), loading pictures and hazards. Shared as one file.",
+   "try": "On Stadiums > Stadium builder, copy one of ours or start a new stadium, then pick each time of day's scene, lighting, music and hazards."
+  },
+  {
+   "group": "stadiums",
+   "id": "custom-fences",
+   "title": "Custom fences",
+   "kind": "files",
+   "summary": "Pull the outfield wall in, separately by day and by night. The park moves in with the wall, and the collision is rebuilt from the player's own game.",
+   "try": "In the stadium builder, pick a fence shape or drag the corner sliders (75 to 100% of Mario Stadium's)."
+  },
+  {
+   "group": "stadiums",
+   "id": "select-map-looks",
+   "title": "Stadium-select map looks",
+   "kind": "files",
+   "summary": "Any stadium can get its own logo and words by day and by night, and a model of its own on the map. The map's own textures can be replaced with pictures.",
+   "try": "On Stadiums > Select map, pick a stadium and give it a logo picture or a name, words, and a model on the map, for day and for night."
+  },
+  {
+   "group": "hazards",
+   "id": "walking-bobombs",
+   "title": "Walking Bob-ombs",
+   "kind": "files",
+   "summary": "Bob-ombs wander the outfield. A fielder who gets close lights one, and the blast knocks nearby fielders down.",
+   "try": "Tick Walking Bob-ombs (needs A new stadium). They wander its outfield by day."
+  },
+  {
+   "group": "hazards",
+   "id": "octoombas",
+   "title": "Octoombas",
+   "kind": "files",
+   "summary": "Octoombas on the warning track spit rocks that knock fielders down.",
+   "try": "Tick Octoombas (needs A new stadium). They stand on its warning track at night."
+  },
+  {
+   "group": "hazards",
+   "id": "piranha-plants",
+   "title": "Piranha Plants in any stadium",
+   "kind": "files",
+   "summary": "During Petey Piranha's at-bat, Piranha Plants come up in the outfield of any stadium and bite fielders.",
+   "try": "Tick Piranha Plants, then on the Stock character options tab give Piranha Plants to a character, such as Petey Piranha. They come up while he bats."
+  },
+  {
+   "group": "hazards",
+   "id": "hazard-creator",
+   "title": "Make your own hazards",
+   "kind": "files",
+   "summary": "Walkers, shooters, plants and ghosts as editable hazards: how many, where, how fast, by day, at night or both, and what a hit does (knockdown, stun, slip or freeze).",
+   "try": "On Stadiums > Hazards, copy one of our hazards, change it, and click Use in my game."
+  },
+  {
+   "group": "items",
+   "id": "fixed-items",
+   "title": "Fixed batting items",
+   "kind": "files",
+   "summary": "A character always gets the same batting item, or always gets one. For example, Boo always bats with a Boo.",
+   "try": "Tick Fixed batting items. With items on, Boo always gets a Boo and the Koopas a Shell."
+  },
+  {
+   "group": "items",
+   "id": "item-odds",
+   "title": "Item roulette odds",
+   "kind": "files",
+   "summary": "Set how often each batting item comes up in the item roulette, or take an item out of it entirely. The new items (the Koopaling items, Ice and Star Bits) can be added to the roulette too.",
+   "try": "Tick Item roulette odds and set each item's odds in the patcher, including the new items. Set one to 0 to take it out of the roulette, or above 0 to add a new item to it."
+  },
+  {
+   "group": "items",
+   "id": "knockback",
+   "title": "Knockback on hit",
+   "kind": "files",
+   "summary": "An item knocks the fielder it hits down and slides them away from the ball, so they drop it.",
+   "try": "Tick Knockback on hit. The patcher also ticks the other Koopaling item ideas, which share one switch. Give a character the item in the patcher."
+  },
+  {
+   "group": "items",
+   "id": "item-flight",
+   "title": "Item speed and flight",
+   "kind": "files",
+   "summary": "Change how an item flies: faster or slower, level with no gravity, or skimming along the ground with no bounce.",
+   "try": "Comes with the Koopaling items. Give a character the fast ground-skimming shot in the patcher."
+  },
+  {
+   "group": "items",
+   "id": "multi-shot",
+   "title": "Multi-shot items",
+   "kind": "files",
+   "summary": "One throw fires several copies of an item at once, such as five Fireballs.",
+   "try": "Comes with the Koopaling items. Give a character the five-Fireball throw in the patcher."
+  },
+  {
+   "group": "items",
+   "id": "homing",
+   "title": "Homing items",
+   "kind": "files",
+   "summary": "An item steers toward the standing fielder nearest the point you aim at.",
+   "try": "Comes with the Koopaling items. Give a character the Bullet Bill in the patcher; it steers toward where you aim."
+  },
+  {
+   "group": "items",
+   "id": "freeze-on-hit",
+   "title": "Freeze on Hit (Borrowed Hazard Animation)",
+   "kind": "files",
+   "summary": "An item freezes the fielder it hits in a block of ice, using Peach Ice Garden's freeze animation and sounds. It works in every stadium, not only the Ice Garden.",
+   "try": "Comes with Item variants. Ice freezes the fielder it hits, in any stadium."
+  },
+  {
+   "group": "items",
+   "id": "item-variants",
+   "title": "Item variants",
+   "kind": "files",
+   "summary": "A new item id built on a stock item, with its own icon and ball color. For example, Ice is a Fireball with blue balls that freezes instead of stunning.",
+   "try": "Tick Item variants (needs A new item in the roulette). Ice joins the roulette with its own icon and blue balls."
+  },
+  {
+   "group": "items",
+   "id": "reused-hazard-model",
+   "title": "Aimed Bullet Bill (Reused Hazard Model)",
+   "kind": "files",
+   "summary": "A stadium hazard's model drawn on a thrown item: Bowser Jr. Playroom's Bullet Bill on a homing Fireball.",
+   "try": "Comes with the Koopaling items. Give a character the Bullet Bill in the patcher."
+  },
+  {
+   "group": "items",
+   "id": "field-hazard-items",
+   "title": "Items that leave hazards on the field",
+   "kind": "files",
+   "summary": "A thrown item lands as objects that stay on the field, such as rings that hop around until the half-inning ends.",
+   "try": "Comes with the Koopaling items. Give a character the rings in the patcher; they stay on the field for the half-inning."
+  },
+  {
+   "group": "items",
+   "id": "item-ability",
+   "title": "Item ability type",
+   "kind": "files",
+   "summary": "A third kind of ability next to fielding and baserunning, with its own icon based on the item-box art. A character's item ability shows its name on the character cards.",
+   "try": "Tick Item ability type. Characters with their own item show it as a third ability, with its own icon, on their cards."
+  },
+  {
+   "group": "items",
+   "id": "new-roulette-item",
+   "title": "A new item in the roulette",
+   "kind": "files",
+   "summary": "A brand-new item rolled like the stock six, in the unused Thunder slot, with its own roulette odds, icon, model and behavior. Ours is Star Bits.",
+   "try": "Tick A new item in the roulette. Star Bits roll alongside the stock six."
+  },
+  {
+   "group": "items",
+   "id": "item-creator",
+   "title": "Make your own items",
+   "kind": "files",
+   "summary": "New roulette items built from a thrown ball or a lob: how many balls, speed, path (straight, bounce, skim or homing), trail color, what a hit does, the model and the icon. Up to 8 per game.",
+   "try": "Coming to the patcher's Create tab: copy one of our items or start a new one."
+  },
+  {
+   "group": "swings",
+   "id": "custom-swings",
+   "title": "New star swing slots",
+   "kind": "files",
+   "summary": "Star swings past the stock 12. Each new swing borrows a stock swing's launch, camera and cut-in.",
+   "try": "Tick New star swing slots, then on the Stock character options tab give a character star swing 13, such as King Boo."
+  },
+  {
+   "group": "swings",
+   "id": "swing-path",
+   "title": "Custom Star Swing Path",
+   "kind": "files",
+   "summary": "A star swing with its own ball flight: its own gravity, bounce and float, with the fielders' landing forecast kept in sync.",
+   "try": "Comes with New star swing slots. The swing 13 ball dives, pops up and floats down trailing stars."
+  },
+  {
+   "group": "swings",
+   "id": "swing-items",
+   "title": "Custom Items in Star Swing",
+   "kind": "files",
+   "summary": "A star swing that drops batting items onto the field: Star Bits fall around where the ball will land, and fielders who run into them slip. They vanish two seconds after the ball lands.",
+   "try": "Tick Custom Items in Star Swing (needs New star swing slots and Star Bits) and give a character star swing 15 in the patcher."
+  },
+  {
+   "group": "swings",
+   "id": "swing-creator",
+   "title": "Make your own star swings and pitches",
+   "kind": "files",
+   "summary": "Any star swing can dive and float, hide the ball until it lands, or rain Star Bits, each with its own values. Our star pitches can be edited too: speed, path, the vanishing windows and the menu name.",
+   "try": "Coming to the patcher's Create tab: copy one of our star swings or start a new one."
+  },
+  {
+   "group": "swings",
+   "id": "cutin-backdrops",
+   "title": "Captain cut-in backdrops",
+   "kind": "files",
+   "summary": "A captain's star-swing cut-in gets its own backdrop.",
+   "try": "Tick Captain cut-in backdrops. Captains without a stock backdrop get their own behind the star swing cut-in."
+  },
+  {
+   "group": "swings",
+   "id": "pitch-slots",
+   "title": "New star pitch slots",
+   "kind": "files",
+   "summary": "Star pitches past the stock ones. A new pitch either runs as a stock pitch underneath or borrows a stock pitch's table rows, so its path, plate crossing and swing rules stay stock. It stays hittable and the CPU batter still times it.",
+   "try": "Comes with any custom star pitch. On the Stock character options tab, give a character a star pitch from 13 to 16."
+  },
+  {
+   "group": "swings",
+   "id": "pitch-path",
+   "title": "Custom Star Pitch Path",
+   "kind": "files",
+   "summary": "A star pitch with its own flight. It can stop in midair, orbit a small star planet and drop into the zone from above, or rocket up in a steep arc and plunge in.",
+   "try": "Give a character star pitch 13 (orbit and drop) or 14 (steep arc) on the Stock character options tab."
+  },
+  {
+   "group": "swings",
+   "id": "pitch-vanish",
+   "title": "Vanishing star pitch",
+   "kind": "files",
+   "summary": "The ball dissolves in a flicker and a puff of smoke, is gone for the middle of its flight, and puffs back in near the plate.",
+   "try": "Give a character star pitch 16 on the Stock character options tab. The ball vanishes mid-flight."
+  },
+  {
+   "group": "swings",
+   "id": "pitch-items",
+   "title": "Custom Items in Star Pitch",
+   "kind": "files",
+   "summary": "The pitcher throws a lit Bob-omb. It flashes faster as it nears the plate and blows up at the catcher, or pops at the bat if it's hit.",
+   "try": "Give a character star pitch 15 on the Stock character options tab. The pitch is a lit Bob-omb."
+  },
+  {
+   "group": "fielding",
+   "id": "new-ability-slot",
+   "title": "New fielding ability slot",
+   "kind": "files",
+   "summary": "Fielding abilities past the stock 12, with their own name on the stats screen. The Star Solo Buddy Toss below uses one.",
+   "try": "Tick New fielding ability slot. It comes with the Star Solo Buddy Toss."
+  },
+  {
+   "group": "fielding",
+   "id": "clamber-solo-jump",
+   "title": "Clamber Jump",
+   "kind": "files",
+   "summary": "A fielding ability of its own (14): Clamber, plus a solo buddy jump off the wall aimed at the ball. Stock Clamber is left as the game has it, so any character can have either one.",
+   "try": "On the Characters tab, give a character the fielding ability Clamber Jump. Our defaults give it to the six Kongs."
+  },
+  {
+   "group": "fielding",
+   "id": "star-solo-toss",
+   "title": "Star Solo Buddy Toss",
+   "kind": "files",
+   "summary": "A fielder holding the ball presses A+B to spend a star on the buddy throw, with no buddy needed.",
+   "try": "Tick Star Solo Buddy Toss and give a character fielding ability 13 in the patcher. A+B with the ball spends a star on the throw."
+  },
+  {
+   "group": "fielding",
+   "id": "ability-edits",
+   "title": "Edit the abilities",
+   "kind": "files",
+   "summary": "Change the numbers behind the stock fielding and running abilities: Super Dive reach, Super Jump height, the special catches' reach, Clamber speeds, Ball Dash speed, Laser Beam throw speed, Quick Throw windup, dive travel time and Enlarge size. An edit applies to everyone with that ability.",
+   "try": "In the patcher's abilities editor, pick an ability and change its numbers. Every character with that ability gets the change."
+  },
+  {
+   "group": "gameplay",
+   "id": "batter-depth",
+   "title": "Step up or back in the box",
+   "kind": "files",
+   "summary": "Move the batter toward or away from the pitcher with the Nunchuk stick.",
+   "try": "Tick Step up or back in the box. At the plate, the Nunchuk stick moves your batter up or back."
+  },
+  {
+   "group": "gameplay",
+   "id": "level-5",
+   "title": "Level 5 and 6 CPU",
+   "kind": "files",
+   "summary": "Two CPU levels past All-Star: Superstar (5) and Legend (6). They play like level 4 plus every CPU change below; levels 1 to 4 play like the original game."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-star-swings",
+   "title": "Level 5 CPU: star swings by charge power",
+   "kind": "files",
+   "summary": "Level 5 CPU batters with weaker charge power use their star swing more often: up to 50 points more for the weakest charge hitters, almost none for the strongest."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-no-star-pitches",
+   "title": "Level 5 CPU: no star pitches",
+   "kind": "files",
+   "summary": "The level 5 computer never throws a star pitch."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-charge-timing",
+   "title": "Level 5 CPU: charge timing",
+   "kind": "files",
+   "summary": "Level 5 CPU batters time every charge swing so it's fully charged when they swing."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-no-bunts",
+   "title": "Level 6 CPU: no bunts",
+   "kind": "files",
+   "summary": "The level 6 CPU never bunts."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-cursed-ball",
+   "title": "Level 5 / 6 CPU: cursed ball (off by default)",
+   "kind": "files",
+   "summary": "The CPU's charged pitches are cursed balls too, like a human's: they cut the batter's hit power."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-batter-track",
+   "title": "Level 6 CPU: watches the pitch in",
+   "kind": "files",
+   "summary": "Level 6 CPU batters follow the pitch all the way and judge ball or strike on the umpire's real zone as they start the swing, so they stop taking strikes on the edge."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-rundown",
+   "title": "Level 6 CPU: rundowns",
+   "kind": "files",
+   "summary": "Level 6 CPU fielders throw early to the base the runner is heading for and hold on the base behind."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-items",
+   "title": "Level 6 CPU: item use",
+   "kind": "files",
+   "summary": "The level 6 CPU uses its real item, aimed and timed to hit the fielder as he fields the ball."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-item-defense",
+   "title": "Level 6 CPU: item defense",
+   "kind": "files",
+   "summary": "Level 6 CPU fielders run around items, pass to a nearby teammate, time jump catches, jump POWs, and ignore Boo."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-subs",
+   "title": "Level 5 CPU: smart pitching changes",
+   "kind": "files",
+   "summary": "When a level 5 CPU pitcher tires, it brings in one of its best pitchers instead of a captain, then moves its fielders around for better chemistry."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-pitching",
+   "title": "Level 5 CPU: edge pitching",
+   "kind": "files",
+   "summary": "Level 5 CPU pitchers work the edges of the zone, throw fastballs only if they're among the fastest, and throw changeups by how high they float."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-perfect-batting",
+   "title": "Level 5 CPU: perfect batting",
+   "kind": "files",
+   "summary": "Level 5 CPU batters always read the pitch, track every ball and time every swing, and never take a strike."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-perfect-pitching",
+   "title": "Level 5 CPU: perfect pitching",
+   "kind": "files",
+   "summary": "Level 5 CPU pitchers throw every charged fastball perfectly, always curve with a late break, and never repeat a spot."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-perfect-fielding",
+   "title": "Level 5 CPU: perfect fielding",
+   "kind": "files",
+   "summary": "Level 5 CPU fielders always dive and jump, fly balls included, and react and throw with no delay."
+  },
+  {
+   "group": "gameplay",
+   "id": "cpu-perfect-running",
+   "title": "Level 5 CPU: perfect running",
+   "kind": "files",
+   "summary": "Level 5 CPU runners always get a good jump, land every sprint tap, and win close plays on reflex."
+  },
+  {
+   "group": "gameplay",
+   "id": "batter-star",
+   "title": "A star when coming up to bat",
+   "kind": "files",
+   "summary": "Chosen characters add one star when they come up to bat.",
+   "try": "Tick A star when coming up to bat, then on the Stock character options tab give it to a character, such as Baby Mario."
+  },
+  {
+   "group": "gameplay",
+   "id": "chance-cheer",
+   "title": "Custom Chance Cheer",
+   "kind": "files",
+   "summary": "Every time a chosen character comes up to bat, a chance cheer starts with its own custom song. Clap in time to earn a star.",
+   "try": "Tick Custom Chance Cheer and give it to a character in the patcher. Their cheer plays every time they bat."
+  },
+  {
+   "group": "gameplay",
+   "id": "minimap-decoys",
+   "title": "Mini-map decoys",
+   "kind": "files",
+   "summary": "While a chosen character is on base, two decoy icons mirror them on the mini map.",
+   "try": "Tick Mini-map decoys, then on the Stock character options tab give them to a character. Decoys mirror them on base."
+  },
+  {
+   "group": "gameplay",
+   "id": "bench",
+   "title": "Bench players",
+   "kind": "files",
+   "summary": "Each team can pick up to five bench players after its starting nine. During a match you can sub one in for anyone except the captain, and a player who has been subbed out can't come back in.",
+   "try": "Tick Bench players. Pick up to five extra players after your nine, and sub them in from the pause menu."
+  },
+  {
+   "group": "gameplay",
+   "id": "no-replays",
+   "title": "No instant replays",
+   "kind": "files",
+   "summary": "The game never shows an instant replay after a play."
+  },
+  {
+   "group": "gameplay",
+   "id": "replay-slow-motion",
+   "title": "Replay slow motion",
+   "kind": "files",
+   "summary": "The game's one slow-motion replay, a close play at the plate, plays slower and longer: pick the speed and how long it lasts."
+  },
+  {
+   "group": "gameplay",
+   "id": "replay-camera",
+   "title": "Replay camera after the hit",
+   "kind": "files",
+   "summary": "After the hit, every replay follows the ball with the fixed TV cameras, or with the chase camera, instead of one of the two at random."
+  },
+  {
+   "group": "gameplay",
+   "id": "contact-freeze",
+   "title": "Contact freeze",
+   "kind": "files",
+   "summary": "The short freeze when the bat meets the ball lasts longer or shorter, or is gone: pick a percent of the game's own."
+  },
+  {
+   "group": "gameplay",
+   "id": "inning-break-time",
+   "title": "Box score between innings",
+   "kind": "files",
+   "summary": "Pick how long the box score shows between innings, from half a second to 30 seconds. The game's own is one camera pass over the stadium (about 3.4 to 7.7 seconds); A still skips it."
+  },
+  {
+   "group": "gameplay",
+   "id": "captain-faceoff",
+   "title": "Captain faceoff before the walkout",
+   "kind": "files",
+   "summary": "Before the teams walk out, the two captains face off near home plate, each turned partly toward the camera, and cheer at each other in one camera shot. A button press skips it."
+  },
+  {
+   "group": "testing",
+   "id": "boot-captain-select",
+   "title": "Boot straight into captain select",
+   "kind": "files",
+   "summary": "Power on straight to Exhibition captain select on save file 1, skipping the title and menus.",
+   "try": "Tick Boot straight into captain select. Powering on skips the title and menus, on save file 1."
+  },
+  {
+   "group": "testing",
+   "id": "boot-game",
+   "title": "Boot straight into a game",
+   "kind": "files",
+   "summary": "Power on straight into a match with the captains and teams you pick, once per power-on.",
+   "try": "Tick Boot straight into a game and pick the teams (Pick the teams..., or Game options... in the Characters Beta). Turning the game on goes straight into that game once; after it, the game's own menus."
+  },
+  {
+   "group": "testing",
+   "id": "cpu-vs-cpu",
+   "title": "CPU vs CPU",
+   "kind": "files",
+   "summary": "Every match is played by the computer on both sides. Pick captains, teams and stadium as usual, then watch.",
+   "try": "Tick CPU vs CPU in the Testing group. Every match you start is played by the computer on both sides; untick it to play yourself."
+  },
+  {
+   "group": "testing",
+   "id": "match-seed",
+   "title": "Match seed",
+   "kind": "files",
+   "summary": "Pick the number the game's dice rolls start from. Type a seed to replay the same CPU vs CPU game (same teams and stadium); leave it blank for a new game every match."
+  },
+  {
+   "group": "testing",
+   "id": "full-star-meter",
+   "title": "Full star meter",
+   "kind": "files",
+   "summary": "One team's star meter stays full, so star swings and star moves can be tested again and again.",
+   "try": "For test builds: the patcher leaves it out of a patched game."
+  },
+  {
+   "group": "testing",
+   "id": "infinite-outs",
+   "title": "Infinite outs",
+   "kind": "files",
+   "summary": "One team bats forever and never makes an out, for testing hitting and baserunning.",
+   "try": "For test builds: the patcher leaves it out of a patched game."
+  },
+  {
+   "group": "testing",
+   "id": "all-items-on",
+   "title": "All items on",
+   "kind": "files",
+   "summary": "Items are turned on with all six enabled, for testing batting items.",
+   "try": "For test builds: the patcher leaves it out of a patched game."
+  },
+  {
+   "group": "testing",
+   "id": "cpu-star-pitch",
+   "title": "CPU always throws its star pitch",
+   "kind": "files",
+   "summary": "The CPU pitcher throws its star pitch on every pitch it can pay for, so you can bat against a new star pitch again and again.",
+   "try": "For test builds: the patcher leaves it out of a patched game."
+  }
+ ]
+}

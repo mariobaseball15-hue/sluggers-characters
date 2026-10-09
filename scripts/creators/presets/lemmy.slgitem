@@ -1,0 +1,60 @@
+{
+ "kind": "item",
+ "format": 1,
+ "name": "Lemmy's Circus Ball",
+ "from": null,
+ "files": [],
+ "blocks": {
+  "item": {
+   "type": "item",
+   "chassis": "thrown-ball"
+  },
+  "given": {
+   "type": "given",
+   "roulette": [
+    0,
+    0,
+    0
+   ],
+   "characters": [],
+   "always": false
+  },
+  "launch": {
+   "type": "launch",
+   "count": 3,
+   "speed": 0.8,
+   "level": false,
+   "gravity": null
+  },
+  "move": {
+   "type": "move",
+   "path": "bounce",
+   "bounce": {
+    "factor": 0.8,
+    "min_hop": 0.35
+   }
+  },
+  "hit": {
+   "type": "hit",
+   "targets": [
+    "fielder",
+    "runner"
+   ]
+  },
+  "effect": {
+   "type": "effect",
+   "kind": "knockdown",
+   "slide_speed": 2.0,
+   "slide_frames": 50
+  },
+  "look": {
+   "type": "look",
+   "model": "circus-ball",
+   "height": 0.5,
+   "trail": null,
+   "icon": {
+    "draw": "circus-ball"
+   }
+  }
+ }
+}

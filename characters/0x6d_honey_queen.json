@@ -1,0 +1,64 @@
+{
+ "id": "0x6D",
+ "name": "Honey Queen",
+ "template": "Petey Piranha",
+ "scale": 1.36,
+ "_why_scale": "Size pass (Nick): 1.60x Mario's in-game height (model height x the Petey Piranha sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (1.17x).",
+ "color": "yellow",
+ "voice": "honey-queen",
+ "model_overlay": "honey-queen-over-petey",
+ "model_blocks": {
+  "0": "models/work/honey-queen/pack/high.bin",
+  "1": "models/work/honey-queen/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/honey-queen_side.png",
+  "front": "models/work/icons/new/honey-queen_front.png"
+ },
+ "bat": {
+  "dir": 82,
+  "_why": "Baby Daisy's gold bat: a honey dipper"
+ },
+ "stats": {
+  "character class": 0,
+  "weight": 4,
+  "fielding ability": 4,
+  "baserunning ability": 0,
+  "slap size": 48,
+  "charge size": 30,
+  "slap power": 42,
+  "charge power": 66,
+  "bunting": 22,
+  "speed": 18,
+  "outfield throwing": 52,
+  "fielding": 50,
+  "displayed pitching": 7,
+  "displayed batting": 6,
+  "displayed fielding": 5,
+  "dis speed": 1,
+  "curveball speed": 126,
+  "charge pitch speed": 142,
+  "curve": 76,
+  "curse ball": 62,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Mario": 2,
+  "Green Yoshi": 2,
+  "Petey Piranha": 0,
+  "Wiggler": 2,
+  "Blooper": 0,
+  "Red Yoshi": 2,
+  "Blue Yoshi": 2,
+  "Yellow Yoshi": 2,
+  "Light Blue Yoshi": 2,
+  "Pink Yoshi": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Galaxy Honeyhive: Bee Mario; garden friends (Wiggler); plants and water are trouble for bees.",
+ "table_stats": {
+  "strike zone height": 0.951
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Petey Piranha's zone sits 30% of the way up its body in the batting stance (1.200 on 0.00..4.05); this body is 0.02..3.16, so 0.951 (the template's 1.200 would sit at 38%). World height = this x sizescale x scale"
+}

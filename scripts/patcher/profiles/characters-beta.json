@@ -1,0 +1,50 @@
+{
+ "about": "Characters Beta: Rosalina, the seven Koopalings (each always brings their own item) and Volcano Pianta",
+ "features": [
+  "new-ids",
+  "recolor-tool",
+  "voices",
+  "level-5",
+  "cpu-perfect-batting",
+  "cpu-perfect-pitching",
+  "cpu-perfect-fielding",
+  "cpu-perfect-running",
+  "cpu-pitching",
+  "cpu-charge-timing",
+  "cpu-batter-track",
+  "cpu-no-bunts",
+  "cpu-star-swings",
+  "cpu-no-star-pitches",
+  "cpu-rundown",
+  "cpu-items",
+  "cpu-item-defense",
+  "cpu-subs",
+  "captain-faceoff",
+  "bench",
+  "fielder-spots",
+  "fixed-items",
+  "item-ability",
+  "new-roulette-item",
+  "item-odds",
+  "item-variants",
+  "koopaling-items"
+ ],
+ "options": {
+  "item-odds": {
+   "ice": 0
+  }
+ },
+ "new_characters": [
+  "characters/0x81_rosalina.json",
+  "characters/0x75_iggy.json",
+  "characters/0x76_lemmy.json",
+  "characters/0x77_ludwig.json",
+  "characters/0x79_morton.json",
+  "characters/0x7a_roy.json",
+  "characters/0x7b_wendy.json",
+  "characters/0x83_larry.json"
+ ],
+ "recolors": [
+  "recolors/volcano-pianta.json"
+ ]
+}

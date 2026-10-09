@@ -1,0 +1,59 @@
+{
+ "id": "0x66",
+ "name": "Pauline",
+ "template": "Daisy",
+ "scale": 1.12,
+ "_why_scale": "Size pass (Nick): 1.30x Mario's in-game height (model height x the Daisy sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (1.16x).",
+ "color": "red",
+ "hitting_ability": "Showstopper",
+ "_why_hitting_ability": "Nick: her batting ability, the chance cheer (Jump Up, Super Star!), shown on the star swing row with the bat icon",
+ "model_overlay": "pauline-over-daisy",
+ "model_blocks": {
+  "0": "models/work/pauline/pack/high.bin",
+  "1": "models/work/pauline/pack/low.bin"
+ },
+ "voice": "pauline",
+ "icon": {
+  "side": "models/work/icons/new/pauline_side.png",
+  "front": "models/work/icons/new/pauline_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/pauline.bin",
+  "_why": "Mario's red bat without the M (plain white disc): python scripts/bat_recolors.py pauline"
+ },
+ "stats": {
+  "character class": 3,
+  "weight": 2,
+  "fielding ability": 12,
+  "baserunning ability": 0,
+  "slap size": 75,
+  "charge size": 55,
+  "slap power": 52,
+  "charge power": 53,
+  "bunting": 45,
+  "speed": 63,
+  "outfield throwing": 80,
+  "fielding": 64,
+  "displayed pitching": 6,
+  "displayed batting": 5,
+  "displayed fielding": 6,
+  "dis speed": 6,
+  "curveball speed": 126,
+  "charge pitch speed": 136,
+  "curve": 64,
+  "curse ball": 42,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Mario": 2,
+  "Donkey Kong": 0,
+  "Peach": 2,
+  "Wario": 0,
+  "King K. Rool": 0,
+  "Honey Queen": 2,
+  "Lubba": 2
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Donkey Kong (1981) and Odyssey: Mario and DK; mayor of New Donk City, sings for the Kongs."
+}

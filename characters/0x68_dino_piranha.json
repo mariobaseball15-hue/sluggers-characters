@@ -1,0 +1,72 @@
+{
+ "id": "0x68",
+ "name": "Dino Piranha",
+ "template": "Bowser",
+ "scale": 0.83,
+ "_why_scale": "Size pass (Nick): 1.50x Mario's in-game height (model height x the Bowser sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (1.80x).",
+ "wheel": "Petey Piranha",
+ "color": "green",
+ "voice": "dino-piranha",
+ "model_overlay": "dino-piranha-over-bowser",
+ "model_blocks": {
+  "0": "models/work/dino-piranha/pack/high.bin",
+  "1": "models/work/dino-piranha/pack/low.bin"
+ },
+ "piranha_plants": true,
+ "hitting_ability": "Piranha Patch",
+ "_why_hitting_ability": "Nick: Piranha Patch is a hitting ability (bat icon on the star swing row), not a special (the ? icon)",
+ "icon": {
+  "side": "models/work/icons/new/dino-piranha_side.png",
+  "front": "models/work/icons/new/dino-piranha_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/dino-piranha.bin",
+  "_why": "Pianta's palm trunk in his green: python scripts/bat_recolors.py dino-piranha"
+ },
+ "stats": {
+  "character class": 1,
+  "weight": 4,
+  "fielding ability": 6,
+  "baserunning ability": 0,
+  "slap size": 44,
+  "charge size": 24,
+  "slap power": 64,
+  "charge power": 90,
+  "bunting": 8,
+  "speed": 15,
+  "outfield throwing": 84,
+  "fielding": 30,
+  "displayed pitching": 4,
+  "displayed batting": 9,
+  "displayed fielding": 3,
+  "dis speed": 1,
+  "curveball speed": 142,
+  "charge pitch speed": 156,
+  "curve": 12,
+  "curse ball": 82,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {
+  "Mario": 0,
+  "Green Yoshi": 0,
+  "Petey Piranha": 2,
+  "Red Yoshi": 0,
+  "Blue Yoshi": 0,
+  "Yellow Yoshi": 0,
+  "Light Blue Yoshi": 0,
+  "Pink Yoshi": 0,
+  "Luma": 0,
+  "Bouldergeist": 2,
+  "Lubba": 0,
+  "Blue Luma": 0,
+  "Green Luma": 0,
+  "Red Luma": 0
+ },
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Galaxy opening boss next to Bouldergeist; plant family with Petey; Yoshi eats Piranhas.",
+ "table_stats": {
+  "strike zone height": 1.358
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser's zone sits 36% of the way up its body in the batting stance (1.100 on 0.00..3.03); this body is 0.00..3.73, so 1.358 (the template's 1.100 would sit at 29%). World height = this x sizescale x scale"
+}

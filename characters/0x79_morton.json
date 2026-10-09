@@ -1,0 +1,54 @@
+{
+ "id": "0x79",
+ "name": "Morton",
+ "batting_item": "bill",
+ "item_ability": "Bill Blaster",
+ "always_item": true,
+ "template": "Bowser Jr.",
+ "scale": 1.19,
+ "_why_scale": "Size pass (Nick): 1.15x Mario's in-game height (model height x the Bowser Jr. sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (0.97x).",
+ "color": "brown",
+ "voice": "morton",
+ "model_blocks": {
+  "0": "models/work/morton/pack/high.bin",
+  "1": "models/work/morton/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/morton_side.png",
+  "front": "models/work/icons/new/morton_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/morton.bin",
+  "_why": "Magikoopa's scepter, orb brown: python scripts/bat_recolors.py morton"
+ },
+ "stats": {
+  "character class": 1,
+  "weight": 4,
+  "fielding ability": 0,
+  "baserunning ability": 5,
+  "slap size": 46,
+  "charge size": 26,
+  "slap power": 50,
+  "charge power": 78,
+  "bunting": 6,
+  "speed": 18,
+  "outfield throwing": 86,
+  "fielding": 38,
+  "displayed pitching": 5,
+  "displayed batting": 7,
+  "displayed fielding": 3,
+  "dis speed": 1,
+  "curveball speed": 132,
+  "charge pitch speed": 146,
+  "curve": 24,
+  "curse ball": 66,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {"Larry": 2, "Iggy": 2, "Lemmy": 2, "Ludwig": 2, "Wendy": 2, "Roy": 2},
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Biggest Koopaling, pound-happy like Roy; heavy hitters respect DK.",
+ "table_stats": {
+  "hit trajectory": 0
+ }
+}

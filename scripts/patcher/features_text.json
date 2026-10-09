@@ -1,0 +1,329 @@
+{
+ "about": "What each patcher feature changes in the game, as the patcher window shows it (Nick: the patcher says exactly what it does; not the notes page's wording). Drafted from charbuild.FEATURES and the build steps; reviewed with git-dc.",
+ "features": {
+  "new-ids": {
+   "title": "New characters",
+   "text": "Adds the new characters you tick on the New characters & recolors tab to the game's roster, each with its own name (27 new characters such as Rosalina, Luma, Pauline, Boom Boom, King Bob-omb and the seven Koopalings, plus the recolors). It also renames the stock Toads: Red Toad becomes Captain Toad, Blue, Yellow and Green Toad become Brigade Blue, Brigade Yellow and Brigade Green, and Purple Toad becomes Mailtoad, with new portraits to match. The character-select grid grows to fit them, up to 12 x 5 squares (the stock grid when there are none), with the captains leading the top rows; the Clamber ability is relabeled Clamber Jump. A color wheel with more than 6 characters holds up to 10 (for example all ten Yoshis on Green Yoshi's)."
+  },
+  "recolor-tool": {
+   "title": "Recolors",
+   "text": "Adds the recolors ticked on the New characters & recolors tab: new color versions of stock characters, made from your own game's textures and portraits (65 by default, such as Purple Yoshi, Brigade Pink, Shadow Koopa, Lava Bro and Tiger Kritter). Each one sits on its original's color wheel and plays exactly like it: same stats, chemistry, voice and animations, never a captain and no star moves of its own."
+  },
+  "toad-brigade": {
+   "title": "Toads become the Toad Brigade",
+   "text": "Replaces the five stock Toads' models with their Super Mario Galaxy versions: Red Toad becomes Captain Toad, Blue, Yellow and Green Toad become the Toad Brigade's Brigade Blue, Yellow and Green, and Purple Toad becomes Mailtoad. Their new names and portraits come with New characters."
+  },
+  "immunities": {
+   "title": "Heart and POW immunities for new characters",
+   "text": "Peach's Heart swing no longer charms Pauline, Honey Queen, Pom Pom, Wendy or Rosalina, the way it already spares the stock female characters. The POW and Daisy's Flower swing no longer stun Honey Queen, Bouldergeist, Lubba, Luma or the Blue, Green and Red Lumas, the way they already spare floating characters like Boo."
+  },
+  "voices": {
+   "title": "Voices for new characters",
+   "text": "Gives 24 new characters their own voice clips for the select-screen call, cheers, hits, throws and falls, instead of their base character's voice: Pauline, Boom Boom, Dino Piranha, Dry Bowser, Bouldergeist, Gearmo, Gold Gearmo, Honey Queen, Lubba, Penguru, all four Lumas, Pom Pom, Rosalina, King Bob-omb and the seven Koopalings. Thanks to Jbiscuit, whose custom character sounds guide showed how voices are routed; ours follows his method in our own code."
+  },
+  "poltergust-dive": {
+   "title": "Luigi's Poltergust dive",
+   "text": "Luigi's fielding ability becomes Suction Catch, so every dive of his is a special catch, and he holds the Poltergust 3000 while he dives."
+  },
+  "captains": {
+   "title": "New captains",
+   "text": "Adds the new captains you tick to the Exhibition captain-select screen, up to 14 captains in all: King Bob-omb takes Wario's place, King Boo takes Waluigi's, and Rosalina and Luma are added (a captain whose character isn't ticked is left out). Each new captain has their own portrait, lineup figure, name plate, team logo and emblem, which also show on the other menus and during games."
+  },
+  "menu-color": {
+   "title": "Menu background color",
+   "text": "Changes the blue background behind the game's menus (character select and every other menu that uses it) to the color you pick: purple by default, or blue (the stock look), red, green, orange, pink, teal, black, or any color you enter."
+  },
+  "bench": {
+   "title": "Bench players",
+   "text": "Each team can pick up to 5 bench players after its 9 on the roster screen. During a game, choose Substitute in the batting pause menu or Change the defense in the fielding one to swap a bench player in for anyone but the captain; a player who comes out can't go back in. To pinch run, swap a bench player onto a runner's cell (Substitute shows \"1B\", \"2B\" or \"3B\" beside each runner); he takes over on that base. The first bench player is the designated hitter (DH). On the batting order screen each lineup has a 10th slot marked FO (fielder only): whoever is in it doesn't bat. By default the pitcher sits there and the DH bats in his spot; swap the 10th slot with any batting spot (A on one, then A on the other) to choose who sits, or put the DH himself there to play without a DH. You can also swap the DH's lineup card with any batting spot to put him in there. Swapping the DH's cell (bottom right of the field) with a fielder's cell swaps the two players: the fielder becomes the DH and the DH takes his position and batting spot (not the captain); this works in Change the defense too. The DH is swapped in and out automatically every half-inning. On the in-game Substitute and Change the defense screens, each fielder shows a small number: his spot in the batting order, updated as you move players around, so you can plan a double switch before pressing OK."
+  },
+  "fielder-spots": {
+   "title": "Drag fielders to new spots",
+   "text": "On the batting order and positions screen before a game, hold A and B with the pointer on a fielder (not the pitcher or catcher) and drag him to where he should stand; let go to drop him there, or drop him back on his own spot to undo. The fielding team can shift the same way during a game from Change the defense. Fielders start every play from their spots for the rest of the game, which always stay in fair territory, short of the fences, and never in front of an arc drawn just behind the pitcher."
+  },
+  "new-stadium": {
+   "title": "New stadium: Good Egg Gridiron / Bob-omb Battlefield",
+   "text": "Adds a new stadium (the game's stadium 10) to the stadium-select map, in Toy Field's spot, which the stock game never lets you pick. It is built on Mario Stadium's field: by day it is Bob-omb Battlefield, with the song Children's March Theme, and at night it is Good Egg Gridiron, a stadium floating among the stars, with the song Snow Globe. It has its own loading pictures for day and night."
+  },
+  "day-night-scenes": {
+   "title": "Day and night scenes",
+   "text": "Gives the new stadium a different scene by day (Bob-omb Battlefield) and at night (Good Egg Gridiron). Comes with New stadium; it can't be switched on its own yet."
+  },
+  "select-map-day-night": {
+   "title": "Day and night on the stadium map",
+   "text": "The stadium-select map shows the new stadium as Bob-omb Battlefield, with its own model and logo, by day, and as a Good Egg planet with a GOOD EGG GRIDIRON logo at night; the screen after you pick it describes the scene you picked. Comes with New stadium; it can't be switched on its own yet."
+  },
+  "moving-scenery": {
+   "title": "Moving scenery",
+   "text": "The new stadium's backgrounds move: by day the Chain Chomp lunges at home plate, the floating island bobs and the clouds drift; at night the cracked planet and the Yoshi egg spin and bob, the stars twinkle and the sky turns. Comes with New stadium; it can't be switched on its own yet."
+  },
+  "dimensions": {
+   "title": "New stadium's field sizes",
+   "text": "Gives the new stadium its own outfield walls: by day (Bob-omb Battlefield) every wall is 15% closer to home plate, and at night (Good Egg Gridiron) every wall is 8% farther away than Mario Stadium's, a bigger park."
+  },
+  "mansion-day": {
+   "title": "Luigi's Mansion by day",
+   "text": "Lets you pick Luigi's Mansion by day on the stadium-select map. By day it has a brighter overcast look and its own loading picture, its gravestones are trimmed hedges, and its ghosts jump out about half as often and stun fielders for less time. Night games there are unchanged."
+  },
+  "walking-bobombs": {
+   "title": "Bob-ombs on Bob-omb Battlefield",
+   "text": "By day, ten Bob-ombs (seven black, three red) wander the new stadium's outfield grass. If a fielder gets close while the ball is in play, one lights its fuse, swells and explodes, knocking down every fielder in the blast, then walks back in from the edge of the grass a few seconds later."
+  },
+  "octoombas": {
+   "title": "Octoombas on Good Egg Gridiron",
+   "text": "At night, two Octoombas stand on the new stadium's warning track in left-center and right-center field. They turn to face a fielder and spit rocks that knock him down."
+  },
+  "piranha-plants": {
+   "title": "Piranha Plants at bat",
+   "text": "While this character is batting, Piranha Plants pop out of pipes all over the field in every stadium: they snap at the ball, can eat it and spit it out of another pipe, and trip fielders who come near. By default it's Dino Piranha's (his definition turns it on), and only one character can have it. Set it per character on the Characters tab."
+  },
+  "fixed-items": {
+   "title": "Characters always get their own item",
+   "text": "When one of these characters is on deck and the batter earns an item, it is always their item: Green and Red Koopa Troopa and both Paratroopas get Shells, Boo and King Boo get a Boo, Fire Bro and Bowser get Fireballs, Bouldergeist and King Bob-omb get a Bob-omb, Chimp gets Bananas, Ice Bro and Penguru get the Ice ball, Rosalina, Lubba and the Lumas get Star Bits, and each Koopaling gets their own item. Wario, Waluigi and the Koopalings always earn an item, good chemistry or not. Set it per character on the Characters tab."
+  },
+  "new-roulette-item": {
+   "title": "New item: Star Bits",
+   "text": "Adds Star Bits to the batting-item roulette for everyone, with its own icon. It is thrown in a lob like the POW and lands as four Star Bits that hop and circle in place; a fielder who runs into one slips, until the at-bat's items clear."
+  },
+  "item-variants": {
+   "title": "New item: Ice ball",
+   "text": "Adds the Ice ball to the batting-item roulette, a rare roll that shows up whenever Fireballs are on, with its own icon. It throws like the Fireballs, but the balls are blue and freeze a fielder they hit, like Peach Ice Garden's ice, instead of stunning him."
+  },
+  "freeze-on-hit": {
+   "title": "Ice freezes fielders",
+   "text": "The Ice ball freezes the fielder it hits instead of stunning him. Comes with Ice ball; it can't be switched on its own yet."
+  },
+  "koopaling-items": {
+   "title": "Koopaling items",
+   "text": "Gives each Koopaling their own item, which they always bring when on deck and the roulette never rolls: Lemmy throws three bouncing circus balls that knock fielders far, Roy and Morton fire a Bullet Bill that homes in on a fielder, Iggy and Larry throw one fast green or cyan fireball that skims along the ground, Wendy lobs rings that hop around for the rest of the half-inning and trip fielders, and Ludwig throws five fireballs at once."
+  },
+  "knockback": {
+   "title": "Knockback items",
+   "text": "Lemmy's circus balls and the Bullet Bill knock a fielder down and send him sliding. Comes with Koopaling items; it can't be switched on its own yet."
+  },
+  "item-flight": {
+   "title": "New item flight paths",
+   "text": "Iggy's and Larry's fireballs skim fast along the ground, the Bullet Bill flies level, and Lemmy's balls bounce high. Comes with Koopaling items; it can't be switched on its own yet."
+  },
+  "multi-shot": {
+   "title": "Five fireballs",
+   "text": "Ludwig throws five fireballs at once instead of three. Comes with Koopaling items; it can't be switched on its own yet."
+  },
+  "homing": {
+   "title": "Homing Bullet Bill",
+   "text": "Roy's and Morton's Bullet Bill homes in on the fielder nearest your cursor when it's fired. Comes with Koopaling items; it can't be switched on its own yet."
+  },
+  "reused-hazard-model": {
+   "title": "Bullet Bill model",
+   "text": "Roy's and Morton's item is drawn as the Bullet Bill from Bowser Jr. Playroom. Comes with Koopaling items; it can't be switched on its own yet."
+  },
+  "field-hazard-items": {
+   "title": "Wendy's rings",
+   "text": "Wendy's lob lands as six pink and gold rings that hop around where it landed for the rest of the half-inning; a fielder who runs into one slips. Comes with Koopaling items; it can't be switched on its own yet."
+  },
+  "item-ability": {
+   "title": "Ability labels on character cards",
+   "text": "Adds rows to the character cards on character select, the batting order and captain select: item abilities (such as Star Bit Storm or Bill Blaster), hitting and running abilities (such as Star Get or Shadow Clone), and the names of the new star swings and star pitches. King Bob-omb's star moves read Kingly Kaboom, and a card can show four lines instead of three."
+  },
+  "custom-swings": {
+   "title": "New star swings",
+   "text": "Adds three new captain star swings: Rosalina's Gravity Ball (a low hit that dives into the dirt, pops up and floats, trailing stars), King Boo's Boo Ball (the ball vanishes and fielders stop in their tracks until just after it lands), and Luma's Star Shower (a low hit on Bowser Jr.'s star-swing path, with a Peach-style cut-in full of stars). By default Rosalina, King Boo and Luma have them. Set it per character on the Characters tab."
+  },
+  "swing-path": {
+   "title": "Gravity Ball's flight",
+   "text": "The Gravity Ball dives into the ground under heavy gravity, pops back up and floats down slowly. Comes with New star swings; it can't be switched on its own yet."
+  },
+  "swing-items": {
+   "title": "Star Shower drops Star Bits",
+   "text": "Right after the Star Shower is hit, 36 Star Bits rain down around where the ball will land, and a fielder who runs into one slips while going for the catch. By default it's Luma's. Set it per character on the Characters tab."
+  },
+  "cutin-backdrops": {
+   "title": "Captains' own cut-in backgrounds",
+   "text": "Gives four captains their own star cut-in background: Rosalina (Peach's turned teal), King Boo (Waluigi's turned ghostly green), King Bob-omb (Wario's in black, grey and yellow) and Luma (Peach's turned gold). Without it they borrow a stock captain's background."
+  },
+  "pitch-slots": {
+   "title": "Room for new star pitches",
+   "text": "Lets the game hold star pitches past the stock 12. It changes nothing by itself; each new star pitch below is its own switch."
+  },
+  "pitch-path": {
+   "title": "New star pitches: Cosmic Pull and Launch Star",
+   "text": "Adds Rosalina's Cosmic Pull (the ball stops partway, swings around a small star planet, then drops into the strike zone from above) and Luma's Launch Star (Luma spins on a Launch Star, and the ball rockets up about 8 m, then plunges into the zone faster than any stock fastball). Both stay fair, hittable pitches. By default Rosalina and Luma have them. Set it per character on the Characters tab."
+  },
+  "pitch-vanish": {
+   "title": "New star pitch: Vanishing Ball",
+   "text": "Adds King Boo's Vanishing Ball: the ball fades out with a puff for the middle of its flight, then fades back in with about a third of the way left, on the same fair path. By default King Boo has it. Set it per character on the Characters tab."
+  },
+  "pitch-items": {
+   "title": "New star pitch: Bob-omb Drop",
+   "text": "Adds King Bob-omb's Bob-omb Drop: the ball is a lit Bob-omb, lobbed high and slow, that hangs at the top and then drops into the strike zone, flashing faster as it nears the plate. It explodes at the catcher, or pops at the bat if it's hit. By default King Bob-omb has it. Set it per character on the Characters tab."
+  },
+  "new-ability-slot": {
+   "title": "Labels for new fielding abilities",
+   "text": "Adds card labels for fielding abilities beyond the stock 12, so the Tantrum Toss shows on the character cards."
+  },
+  "clamber-solo-jump": {
+   "title": "Clamber Jump",
+   "text": "A new fielding ability: Clamber, plus a jump off the wall on your own. A fielder with it who is up on the wall without the ball can press A to jump off alone, like a buddy jump with no buddy, aimed at where the ball crosses the wall. By default the Kongs (Donkey Kong, Diddy Kong, Dixie Kong, Funky Kong, Tiny Kong, Baby DK) and Chimp have it; stock Clamber stays as the game has it. Set it per character on the Characters tab (Fielding ability)."
+  },
+  "star-solo-toss": {
+   "title": "Tantrum Toss",
+   "text": "Adds the Tantrum Toss fielding ability: while holding the ball, press A and B together to spend one star; play pauses while the fielder spins over Bowser's cut-in background, then makes a fast buddy throw with no buddy needed. By default Boom Boom has it. Set it per character on the Characters tab."
+  },
+  "batter-depth": {
+   "title": "Step up or back in the box",
+   "text": "With Nunchuk controls, push the Nunchuk stick up or down to move your batter toward the pitcher or back in the batter's box. Sideways Remote controls are unchanged."
+  },
+  "batter-star": {
+   "title": "A star when coming up to bat",
+   "text": "When one of these characters comes up to bat, their team's star meter gains one star (up to the five-star max), once per trip to the plate. By default it's Luma, the Blue, Green and Red Lumas, and Lubba. Set it per character on the Characters tab."
+  },
+  "chance-cheer": {
+   "title": "Star Chance cheer at every at-bat",
+   "text": "Every at-bat of a character with it starts the Star Chance cheer, even with nobody in scoring position, with Pauline's own jingle when Voices is on (Mario's otherwise). The batter claps along too, and a good cheer adds one star. There's no cheer when the meter is full, star skills are off, or a CPU batter has no human teammates. By default it's Pauline's. Set it per character on the Characters tab."
+  },
+  "minimap-decoys": {
+   "title": "Mini-map decoys",
+   "text": "While this character is on base, two extra copies of their icon on the baserunning mini-map move with them, one and two bases ahead, and all of them get a pink ring. By default it's Pom Pom's, and only one character can have it. Set it per character on the Characters tab."
+  },
+  "boot-captain-select": {
+   "title": "Boot straight into captain select",
+   "text": "When you turn the game on, it skips the warning screen, opening movie, title and file select, loads save file 1 and goes straight to Exhibition captain select. Save file 1 must have data."
+  },
+  "cpu-vs-cpu": {
+   "title": "CPU vs CPU",
+   "text": "Every match is played by the computer on both sides. Pick captains, teams and the stadium as usual, then watch. For testing: untick it to play yourself. Tick everything leaves it off. Thanks to C² (CPU vs CPU V2) and LittleCoaks (the original CPU vs CPU mod), who did this first as Gecko codes."
+  },
+  "boot-game": {
+   "title": "Boot straight into a game",
+   "text": "Turning the game on goes straight into an Exhibition game on save file 1 with the captains and teams you pick (Pick the teams...; empty spots are filled for you), once each time you turn it on: after that game, the game's own menus. You play the first team; with CPU vs CPU the computer plays both. Save file 1 must have data."
+  },
+  "full-star-meter": {
+   "title": "Full star meter",
+   "text": "Test builds only: P1's team always has five stars. The patched game leaves it out."
+  },
+  "infinite-outs": {
+   "title": "Infinite outs",
+   "text": "Test builds only: one team never makes an out while it bats, so its half-inning never ends. The patched game leaves it out."
+  },
+  "all-items-on": {
+   "title": "All items on",
+   "text": "Test builds only: items are on in every game, with all six stock items enabled. The patched game leaves it out."
+  },
+  "cpu-star-pitch": {
+   "title": "CPU always throws its star pitch",
+   "text": "Test builds only: the CPU pitcher throws its star pitch on every pitch its team can pay for. The patched game leaves it out."
+  },
+  "item-odds": {
+   "title": "Item roulette odds",
+   "text": "Sets how often each batting item comes up in the item roulette (Shell, Fireballs, Bob-omb, POW, Bananas, Boo, plus Star Bits and the Ice ball when those features are on). 0 means never; the numbers are relative. Set them in the boxes under this switch."
+  },
+  "share-anim-banks": {
+   "title": "Share identical animations (memory)",
+   "text": "Players on the same template (recolors, and new characters built on one stock character) share one copy of their glove animations in a match instead of loading one each. Nothing looks different; it leaves up to about 1 MB more memory free."
+  },
+  "item-engine": {
+   "title": "Item engine (for your own items)",
+   "text": "What your own items from the Create tab need in the game. It is ticked for you when you add an item; it doesn't add any item by itself."
+  },
+  "ability-edits": {
+   "title": "Edit the abilities",
+   "text": "Puts your edits of the game's fielding and baserunning abilities in the game (how far a dive reaches, how high a jump goes, how fast a throw is, whether it needs a star, and more). Set them on the Abilities tab; an edit applies to everyone who has that ability."
+  },
+  "level-5": {
+   "title": "CPU levels 5 and 6",
+   "text": "Adds Level 5 (Superstar) and Level 6 (Legend) after Level 4 on the Exhibition CPU level popup. They play as the game's Level 4 plus the CPU switches below; Level 6 is the strongest, with no reflexes faster than a human's. Levels 1-4 are the game's own."
+  },
+  "cpu-perfect-batting": {
+   "title": "Batters read your pitches",
+   "text": "Level 5 and 6 CPU batters read the pitch type, swing with no aim or timing error, and never take a strike or chase a ball. Level 5 tracks 85% of pitches, Level 6 all of them."
+  },
+  "cpu-perfect-pitching": {
+   "title": "Pitchers charge, curve and move the ball",
+   "text": "Level 5 and 6 CPU pitchers always get a perfect charge on a charged fastball, always curve a plain pitch, always break it late, and never throw to the same spot twice."
+  },
+  "cpu-perfect-fielding": {
+   "title": "Fielders dive, jump and react",
+   "text": "Level 5 and 6 CPU fielders always go for a dive or jump catch (fly balls too), always clear obstacles and react to good-chemistry teammates. Their reaction and throw timing stay the game's."
+  },
+  "cpu-perfect-running": {
+   "title": "Runners tap and press fast",
+   "text": "Level 5 and 6 CPU runners land every sprint tap and press in close plays after 12 frames, as fast as a quick human."
+  },
+  "cpu-pitching": {
+   "title": "Pitchers learn each batter",
+   "text": "Level 5 and 6 CPU pitchers work the edges of the zone and learn, during the game, what gets each batter out: pitch type, location and break. They keep clear of hitting the batter."
+  },
+  "cpu-charge-timing": {
+   "title": "Batters swing fully charged",
+   "text": "Level 5 and 6 CPU batters start charging at once and are at full charge when they swing."
+  },
+  "cpu-batter-track": {
+   "title": "Batters see where the pitch really crosses",
+   "text": "Level 5 and 6 CPU batters judge ball or strike from where the pitch really crosses the plate, as the umpire does, so breaking pitches don't fool them."
+  },
+  "cpu-no-bunts": {
+   "title": "Never bunts",
+   "text": "The Level 5 and 6 CPU never bunts."
+  },
+  "cpu-cursed-ball": {
+   "title": "Charged pitches weaken your hits",
+   "text": "At Level 5 and 6 the CPU's charged pitches are cursed balls too, like yours: they cut the batter's hit power. In the stock game only a human's charged pitch does this."
+  },
+  "cpu-star-swings": {
+   "title": "Star swings by hitter strength",
+   "text": "Level 5 and 6 CPU batters star-swing by charge power: weak hitters always when the team has 2 or more stars, strong hitters rarely or never."
+  },
+  "cpu-no-star-pitches": {
+   "title": "Never throws star pitches",
+   "text": "The Level 5 and 6 CPU pitcher never throws a star pitch."
+  },
+  "cpu-rundown": {
+   "title": "Smart rundown throws",
+   "text": "In a rundown the Level 5 and 6 CPU throws to the base ahead at once, and times throws to the base behind to get the out."
+  },
+  "cpu-items": {
+   "title": "Aims batting items at fielders",
+   "text": "The Level 5 and 6 CPU uses its real batting item, aimed and timed to hit the fielder about to get the ball. At Level 5 some at-bats add timing and aim error."
+  },
+  "cpu-item-defense": {
+   "title": "Fielders handle items",
+   "text": "Level 5 and 6 CPU fielders jump POWs, pass when a teammate is near, time their fly-ball jumps, run around items and ignore Boo."
+  },
+  "cpu-subs": {
+   "title": "Brings in its best relief pitchers",
+   "text": "When the Level 5 or 6 CPU changes pitchers it picks from its best pitchers, then moves fielders for better chemistry. When it changes stays the game's."
+  },
+  "cpu-settings": {
+   "title": "Your own CPU numbers",
+   "text": "The numbers you set on the CPU levels tab for the Level 5 and 6 CPU. Ticks itself when you change one."
+  },
+  "no-replays": {
+   "title": "No instant replays",
+   "text": "The game never shows an instant replay after a play."
+  },
+  "replay-slow-motion": {
+   "title": "Replay slow motion",
+   "text": "The game's only slow-motion replay, a close play at the plate, plays at the speed and for the length you pick. The game's own: half speed for 50 frames (under a second)."
+  },
+  "replay-camera": {
+   "title": "Replay camera after the hit",
+   "text": "After the hit, every replay follows the ball with the TV cameras (fixed spots around the park) or the chase camera, instead of one of the two at random."
+  },
+  "inning-break-time": {
+   "title": "Box score between innings",
+   "text": "How long the box score shows between innings, in seconds (0.5 to 30). The game's own: one camera pass over the stadium, about 3.4 to 7.7 seconds depending on the stadium. Pressing A still skips it."
+  },
+  "contact-freeze": {
+   "title": "Contact freeze",
+   "text": "The short freeze when the bat meets the ball, as a percent of the game's own: 0 takes it away, 200 doubles it, for every kind of hit."
+  },
+  "captain-faceoff": {
+   "title": "Captain faceoff",
+   "text": "Before the teams walk out, after the flyover of the stadium, the two captains stand facing each other near home plate and strike the captain's walkout pose, in one fixed camera shot of about two and a half seconds. A button press skips it, as it skips the walkout. Then the game's own walkout plays as usual."
+  },
+  "match-seed": {
+   "title": "Match seed",
+   "text": "Pick the number the game's dice rolls start from. Type a seed to replay the same CPU vs CPU game (same teams and stadium); leave it blank for a new game every match."
+  }
+ }
+}

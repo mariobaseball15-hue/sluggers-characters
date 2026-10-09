@@ -1,0 +1,72 @@
+{
+ "id": "0x6A",
+ "name": "Bouldergeist",
+ "template": "King Boo",
+ "scale": 1.57,
+ "_why_scale": "Size pass 2 (Nick: the model fills its template skeleton like the template's own; scale is only how much bigger or smaller than the template, since it also sets the strike zone): 1.50x Mario's in-game height (model height x the King Boo sizescale row x scale; Mario = 1.0). Was 0.83: his model now fills King Boo's skeleton like King Boo's own (fit_height 1.0, was 1.9, so 0.83 left his strike zone 1.9x too small).",
+ "color": "black",
+ "voice": "bouldergeist",
+ "model_overlay": "bouldergeist-over-kingboo",
+ "model_blocks": {
+  "0": "models/work/bouldergeist/pack/high.bin",
+  "1": "models/work/bouldergeist/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/bouldergeist_side.png",
+  "front": "models/work/icons/new/bouldergeist_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/bouldergeist.bin",
+  "_why": "Kritter's mace lightened to stone gray, x0.529 about the grip so it keeps its size when his scale went 0.83 -> 1.57: python scripts/bat_recolors.py bouldergeist"
+ },
+ "batting_item": "bobomb",
+ "item_ability": "Bomb Squad",
+ "_why_item": "Nick: Bouldergeist bats with Bob-ombs, labelled Bomb Squad like King Bob-omb (same batting_item, no always_item, as his)",
+ "stats": {
+  "character class": 1,
+  "weight": 4,
+  "fielding ability": 0,
+  "baserunning ability": 0,
+  "slap size": 58,
+  "charge size": 36,
+  "slap power": 16,
+  "charge power": 99,
+  "bunting": 18,
+  "speed": 1,
+  "outfield throwing": 76,
+  "fielding": 1,
+  "displayed pitching": 6,
+  "displayed batting": 9,
+  "displayed fielding": 1,
+  "dis speed": 1,
+  "curveball speed": 130,
+  "charge pitch speed": 144,
+  "curve": 1,
+  "curse ball": 68,
+  "captain": 0,
+  "star swing": 0,
+  "star pitch": 0
+ },
+ "chemistry": {
+  "Luigi": 0,
+  "Boo": 2,
+  "King Boo": 2,
+  "Luma": 0,
+  "Lubba": 0,
+  "Blue Luma": 0,
+  "Green Luma": 0,
+  "Red Luma": 0
+ },
+ "_why_baserunning": "Nick: Teleport removed (baserunning ability 4 -> 0); his card shows no skills, like stock characters with none",
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Galaxy ghost boss; ghosts together; Luigi and the Lumas fight ghosts.",
+ "table_stats": {
+  "catch normal": 41.76,
+  "catch any direction": 22.35,
+  "catch centered": 17.65,
+  "catch max height": 235.29,
+  "catch dive": 58.82,
+  "changeup arc height": 10,
+  "changeup speed mult": 1,
+  "pitch steering": 0.7
+ }
+}

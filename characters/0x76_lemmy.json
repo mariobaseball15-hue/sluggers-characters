@@ -1,0 +1,67 @@
+{
+ "id": "0x76",
+ "name": "Lemmy",
+ "batting_item": "lemmy",
+ "item_ability": "Big Top Blast",
+ "always_item": true,
+ "template": "Bowser Jr.",
+ "scale": 0.71,
+ "_why_scale": "Size pass (Nick): 1.10x Mario's in-game height (model height x the Bowser Jr. sizescale row x scale; Mario = 1.0, stock max DK 1.62). Was 1 (1.54x).",
+ "color": "yellow",
+ "voice": "lemmy",
+ "model_overlay": "lemmy-over-bowserjr",
+ "model_blocks": {
+  "0": "models/work/lemmy/pack_ride/high.bin",
+  "1": "models/work/lemmy/pack_ride/low.bin",
+  "6": "models/work/lemmy/ride/anim/file6.bin",
+  "7": "models/work/lemmy/ride/anim/file7.bin",
+  "8": "models/work/lemmy/ride/anim/file8.bin",
+  "9": "models/work/lemmy/ride/anim/file9.bin",
+  "10": "models/work/lemmy/ride/anim/file10.bin",
+  "11": "models/work/lemmy/ride/anim/file11.bin",
+  "12": "models/work/lemmy/ride/anim/file12.bin",
+  "13": "models/work/lemmy/ride/anim/file13.bin",
+  "14": "models/work/lemmy/ride/anim/file14.bin"
+ },
+ "_why_model_blocks": "Lemmy rides his circus ball while he runs (Nick): his model with the ball on bone 30 and his own banks that show it only in the run / jog / side-step cycles, lifting him onto it (scripts/lemmy_ride.py; rerun it after lemmy_pack.json's model changes). Without the ride: models/work/lemmy/pack/high.bin and low.bin, no 6-14.",
+ "icon": {
+  "side": "models/work/icons/new/lemmy_side.png",
+  "front": "models/work/icons/new/lemmy_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/lemmy.bin",
+  "_why": "Magikoopa's scepter, orb orange: python scripts/bat_recolors.py lemmy"
+ },
+ "stats": {
+  "character class": 0,
+  "weight": 1,
+  "fielding ability": 1,
+  "baserunning ability": 5,
+  "slap size": 60,
+  "charge size": 40,
+  "slap power": 28,
+  "charge power": 48,
+  "bunting": 10,
+  "speed": 60,
+  "outfield throwing": 50,
+  "fielding": 70,
+  "displayed pitching": 5,
+  "displayed batting": 4,
+  "displayed fielding": 7,
+  "dis speed": 6,
+  "curveball speed": 120,
+  "charge pitch speed": 132,
+  "curve": 58,
+  "curse ball": 34,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {"Larry": 2, "Iggy": 2, "Ludwig": 2, "Wendy": 2, "Roy": 2, "Morton": 2},
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Circus-ball Koopaling; youngest-feeling, plays with Larry and Jr.; beaten by Yoshi in SMW.",
+ "table_stats": {
+  "hit trajectory": 0,
+  "strike zone height": 1.857
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser Jr.'s zone sits 67% of the way up its body in the batting stance (1.100 on 0.00..1.64); this body is 0.00..2.77, so 1.857 (the template's 1.100 would sit at 40%). World height = this x sizescale x scale"
+}

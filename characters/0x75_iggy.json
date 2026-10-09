@@ -1,0 +1,55 @@
+{
+ "id": "0x75",
+ "name": "Iggy",
+ "batting_item": "iggy",
+ "item_ability": "Emerald Assault",
+ "always_item": true,
+ "template": "Bowser Jr.",
+ "color": "green",
+ "voice": "iggy",
+ "model_overlay": "iggy-over-bowserjr",
+ "model_blocks": {
+  "0": "models/work/iggy/pack/high.bin",
+  "1": "models/work/iggy/pack/low.bin"
+ },
+ "icon": {
+  "side": "models/work/icons/new/iggy_side.png",
+  "front": "models/work/icons/new/iggy_front.png"
+ },
+ "bat": {
+  "file": "models/work/bats/iggy.bin",
+  "_why": "Magikoopa's scepter, orb green: python scripts/bat_recolors.py iggy"
+ },
+ "stats": {
+  "character class": 2,
+  "weight": 1,
+  "fielding ability": 0,
+  "baserunning ability": 5,
+  "slap size": 55,
+  "charge size": 35,
+  "slap power": 34,
+  "charge power": 54,
+  "bunting": 8,
+  "speed": 86,
+  "outfield throwing": 54,
+  "fielding": 48,
+  "displayed pitching": 5,
+  "displayed batting": 5,
+  "displayed fielding": 4,
+  "dis speed": 8,
+  "curveball speed": 124,
+  "charge pitch speed": 136,
+  "curve": 44,
+  "curse ball": 40,
+  "captain": 0,
+  "star pitch": 0,
+  "star swing": 0
+ },
+ "chemistry": {"Larry": 2, "Lemmy": 2, "Ludwig": 2, "Wendy": 2, "Roy": 2, "Morton": 2},
+ "_why_balance": "git-8a's balance pass (Nick): own stats; chemistry starts neutral (not the template's). Hyperactive twin-look with Lemmy; rides Chain Chomps and Yoshi in Mario Kart 8.",
+ "table_stats": {
+  "hit trajectory": 0,
+  "strike zone height": 1.309
+ },
+ "_why_strike_zone": "python scripts/strike_zones.py --write: Bowser Jr.'s zone sits 67% of the way up its body in the batting stance (1.100 on 0.00..1.64); this body is 0.00..1.95, so 1.309 (the template's 1.100 would sit at 56%). World height = this x sizescale x scale"
+}
